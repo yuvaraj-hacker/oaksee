@@ -21,7 +21,7 @@ function ContactUs() {
             <meta charSet="utf-8" />
             <title>ContactUs</title>
          </Helmet>
-         <div className="flex flex-wrap gap-28 items-center justify-center h-screen media about  ">
+         <div className="flex flex-wrap lg:gap-28 md:gap-16  gap items-center justify-center h-screen media about  ">
             
             <div  className="   contact">
                <p className=" text-5xl mb-5 text-green-950">Contact </p>
