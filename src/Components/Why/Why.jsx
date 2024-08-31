@@ -25,8 +25,8 @@ function Why() {
         <title>Why Choose Us</title>
       </Helmet>
 
-      <div className={`flex lg:h-screen justify-center media items-center media  about   ${isEntered ? 'entered' : ''}`}>
-      <div className="flex choose flex-col gap-6  z-30">
+      <div className={`flex justify-center lg:mt-[140px]  media items-center  about   ${isEntered ? 'entered' : ''}`}>
+      <div className="flex choose flex-col gap-10  z-30">
         <h1 className="text-green-950 text-5xl   ">
           {" "}
           Why <br />

@@ -23,7 +23,7 @@ function Approuter() {
             <Header />
            <SideBar/>
            <Footer/>
-        
+           <Line/>
             <RouterContent /> 
         </BrowserRouter>
     );
@@ -46,7 +46,7 @@ function RouterContent() {
                
                     
                 </Route>
-                <Route path="/line" element={<Line />} />
+               
                
                
             </Routes>
