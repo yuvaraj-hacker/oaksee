@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 
 const Transition = (OgComponent) => {
-  return () => (
+  return (props) => (
     <motion.div
-      initial={{ opacity: 0.15 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0.15 }}
-      transition={{ duration: 0.4, ease: [0.42, 0, 0.58, 1] }}
+      initial={{ scale: 0.9 }}
+      animate={{ scale: 1 }}
+      exit={{ scale: 0.9 }}
+      transition={{ duration: 0.4, ease: [0.42, 0.52, 0.58, 1], delay: 0.3 }}
     >
-      <OgComponent />
+      <OgComponent {...props} />
     </motion.div>
   );
 };

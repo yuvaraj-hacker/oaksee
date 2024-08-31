@@ -19,12 +19,15 @@ function Services() {
                 <meta charSet="utf-8" />
                 <title>services</title>
             </Helmet>
+          
            <div className= "lg:h-screen flex justify-center media items-center  about" >
 
           
             <div className="flex  flex-col justify-center   gap-3 service  ">
                 <div>
+                   
                     <h1 className="text-green-950   text-5xl z-40  lg:mt-14"> Services</h1>
+                  
                 </div>
 
                 <div  className=" lg:w-[1200px] service-section  items-center hover:border hover:shadow-md bg-white border hover:shadow-red-100  md:w-[600px] sm:[150px] z-40    mx-auto flex flex-wrap    flex-1  gap-10 lg:p-4 md:p-2 ">
@@ -52,6 +55,7 @@ function Services() {
 
                     </div>
                 </div>
+              
                 <div    className="lg:w-[1200px]  items-center z-40 border  hover:border hover:shadow-md bg-white hover:shadow-red-100  md:w-[600px] sm:[150px]  h-fit  mx-auto flex  flex-wrap flex-1  gap-10 lg:p-4 md:p-2 ">
                     <div className="lg:w-[260px] md:[200px] h-fit  border-0 resize   bg-green-950 p-5 text-lg text-yellow-500">
                         Cybersecurity Solutions
@@ -74,6 +78,7 @@ function Services() {
 
                     </div>
                 </div>
+              
                 <div  className="lg:w-[1200px]  items-center border  hover:border hover:shadow-md bg-white hover:shadow-red-100 z-40 md:w-[600px] sm:[150px]  h-fit  mx-auto flex flex-wrap  flex-1  gap-10 lg:p-4 md:p-2 ">
                     <div className="lg:w-[260px] md:[200px] h-fit  border-0  resize  bg-green-950 p-5 text-lg text-yellow-500">
                         Cloud Services
