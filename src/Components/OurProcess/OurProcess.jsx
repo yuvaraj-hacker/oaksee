@@ -24,7 +24,7 @@ function OurProcess() {
     <div className="flex flex-wrap  justify-center items-center  media h-screen about  ">
         <div >
              <p   className="text-5xl text-green-950 ml-7">Our Process</p>
-             <img   className="w-[470px] h-[500px] p-5" src='/Images/process.jpg' alt='ourprocess'/>
+             <img   className="w-[470px] lg:h-[500px] p-5 sized" src='/Images/process.jpg' alt='ourprocess'/>
         </div>
         <div        className="process">
             <div className="lg:mt-20">

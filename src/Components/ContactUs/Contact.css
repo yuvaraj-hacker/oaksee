@@ -1,12 +1,26 @@
 @media only screen and (max-width: 600px) {
     .contact {
-      margin: 0 40px;
+      
+      margin: 0 30px;
       margin-top: 10px;
      
     }
  
     
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .map {
+      
+     width: 350px;
+     
+    }
+ 
+    
+  }
+
+
 
 
 

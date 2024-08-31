@@ -22,7 +22,7 @@ function SuccessStories() {
       <div  className="flex flex-wrap   md:gap-5 sm:gap-3 justify-center items-center  media h-screen  about " >
         <div >
           <p className="text-5xl text-green-950 ml-7">Success Stories</p>
-          <img   className="w-[500px] h-[500px] p-5" src='/Images/successs.jpg' alt='success' />
+          <img   className="w-[500px] lg:h-[500px] p-5 sized" src='/Images/successs.jpg' alt='success' />
         </div>
         <div    className="lg:w-2/5 md:w-3/5 success">
           <div className="lg:mt-14 ">

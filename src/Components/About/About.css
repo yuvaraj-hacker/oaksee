@@ -7,4 +7,15 @@
   }
 
   
+
+
+  @media only screen and (max-width: 600px) {
+    .pages {
+      width:500px ;
+      height: 200px;
+     
+    }
+  }
+
+  
   

@@ -19,9 +19,9 @@ const SideBar = () => {
     >
     
     </div>
-      <ul className="fixed right-0 top-5 w-14 p-4 z-50 sidebar ">
+      <ul className="fixed right-0 top-10 w-14 p-4 z-50 sidebar ">
       <Link to="https://in.linkedin.com/">
-        <img src="Images/white2.png" alt="whitelinkedin" />
+        <img className="cursor-pointer mt-5" src="Images/white2.png" alt="whitelinkedin" />
       </Link>
       <Link to="https://twitter.com/?lang=en">
         <img className="mt-5" src="Images/white3.png" alt="whitetwitter" />
