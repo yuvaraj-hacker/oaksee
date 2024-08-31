@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React  from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
@@ -7,15 +7,12 @@ import '../ContactUs/Contact.css'
 import 'aos/dist/aos.css';
 import Line from '../Line/Line'
 import { HelmetProvider } from 'react-helmet-async'
-import SideBars from '../SideBars/SideBars'
+
+import Transition from '../Transition/Transition';
 
 
 function ContactUs() {
-   const [isEntered, setIsEntered] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => setIsEntered(true), 10); // Delay ensures transition runs after mount
-  }, []);
+  
    
    return (
       <>
@@ -24,7 +21,7 @@ function ContactUs() {
             <meta charSet="utf-8" />
             <title>ContactUs</title>
          </Helmet>
-         <div className={`flex flex-wrap items-center justify-center h-screen  media about   ${isEntered ? 'entered' : ''}`}>
+         <div className="flex flex-wrap items-center justify-center h-screen  media about ">
             <div  className="contact  ">
                <p className=" text-5xl mb-5 text-green-950">Contact </p>
                <div className="flex gap-1">
@@ -70,10 +67,10 @@ function ContactUs() {
            
          </div>
          </HelmetProvider>
-         <SideBars/>
+       
          <Line/>
       </>
    )
 }
 
-export default ContactUs
+export default Transition(ContactUs);

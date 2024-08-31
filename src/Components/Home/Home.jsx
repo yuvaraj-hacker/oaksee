@@ -1,19 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import '../Home/Home.css';
 import { Link } from "react-router-dom";
-import SideBar from "../SideBar/SideBar";
-import AOS, { init } from 'aos';
+
 import 'aos/dist/aos.css';
 import Line from "../Line/Line";
+import Transition from "../Transition/Transition";
 
 
 
 function Home() {
-  useEffect(() => {
-    AOS.init({ duration: 1500, easing: 'ease-in-sine' });
-  }, []);
-  AOS.init();
+ 
 
   return (
     <>
@@ -37,26 +34,6 @@ function Home() {
                 <p className=" text-green-950 text-2xl  whitespace-nowrap">See Our Services</p>
               <div className="flex gap-2 text-green-950 text-2xl">
                 
-                {/* <div>
-                  <span className="letter">S</span>
-                  <span className="letter">e</span>
-                  <span className="letter">e</span>
-                </div>
-                <div>
-                  <span className="letter">O</span>
-                  <span className="letter">u</span>
-                  <span className="letter">r</span>
-                </div>
-                <div>
-                  <span className="letter">S</span>
-                  <span className="letter">e</span>
-                  <span className="letter">r</span>
-                  <span className="letter">v</span>
-                  <span className="letter">i</span>
-                  <span className="letter">c</span>
-                  <span className="letter">e</span>
-                  <span className="letter">s</span>
-                </div> */}
 
               </div>
 
@@ -68,7 +45,7 @@ function Home() {
 
 
       </div>
-      <SideBar />
+     
       <Line />
 
 
@@ -78,4 +55,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Transition(Home);

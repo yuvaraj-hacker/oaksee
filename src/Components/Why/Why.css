@@ -21,17 +21,3 @@
  
     
   }
-
-
- .about {
-  opacity: 0;
-  transform: translateY(0px); 
-  transition: opacity 2s cubic-bezier(0.25, 0.1, 0.25, 1), transform 2s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-.about.entered {
-  opacity: 1;
-  transform: translateY(0);
-} 
-
-

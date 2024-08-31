@@ -6,7 +6,7 @@ const SideBar = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Show the sidebar when the component mounts
+   
     setIsVisible(true);
   }, []);
 

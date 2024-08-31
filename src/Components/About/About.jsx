@@ -1,18 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import '../About/About.css';
 import 'aos/dist/aos.css';
 import Line from "../Line/Line";
 import { HelmetProvider } from "react-helmet-async";
-import SideBars from "../SideBars/SideBars";
-import { useNavigate } from "react-router-dom";
+
+import Transition from "../Transition/Transition";
 
 function About() {
-  const [isEntered, setIsEntered] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => setIsEntered(true), 10); // Delay ensures transition runs after mount
-  }, []);
 
   return (
     <>
@@ -21,7 +17,7 @@ function About() {
           <meta charSet="utf-8" />
           <title>About Us</title>
         </Helmet>
-        <div className={`flex justify-center lg:h-screen items-center margin media about ${isEntered ? 'entered' : ''} `}>
+        <div className="flex justify-center lg:h-screen items-center margin media about ">
           <div>
             <p className="text-5xl mb-5 text-green-950 z-50">About Us</p>
             <div>
@@ -42,10 +38,10 @@ function About() {
         </div>
       </HelmetProvider>
       <Line />
-      <SideBars />
+    
     </>
   );
 }
 
-export default About;
+export default Transition(About);
 

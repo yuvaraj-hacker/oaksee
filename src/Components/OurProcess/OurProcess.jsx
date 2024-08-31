@@ -6,15 +6,12 @@ import '../OurProcess/Process.css'
 
 import Line from '../Line/Line';
 import { HelmetProvider } from 'react-helmet-async';
-import SideBars from '../SideBars/SideBars';
+
+import Transition from '../Transition/Transition';
 
 
 function OurProcess() {
-  const [isEntered, setIsEntered] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => setIsEntered(true), 10); // Delay ensures transition runs after mount
-  }, []);
+  
  
 
   return (
@@ -24,7 +21,7 @@ function OurProcess() {
         <meta charSet="utf-8" />
         <title>Our Process</title>
       </Helmet>
-    <div className={`flex flex-wrap  justify-center items-center  media h-screen about   ${isEntered ? 'entered' : ''}`}>
+    <div className="flex flex-wrap  justify-center items-center  media h-screen about  ">
         <div >
              <p   className="text-5xl text-green-950 ml-7">Our Process</p>
              <img   className="w-[470px] h-[500px] p-5" src='/Images/process.jpg' alt='ourprocess'/>
@@ -66,10 +63,10 @@ function OurProcess() {
        
     </div>
     </HelmetProvider>
-    <SideBars/>
+    
     <Line/>
     </>
   )
 }
 
-export default OurProcess
+export default Transition(OurProcess);

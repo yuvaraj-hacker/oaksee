@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route,  Routes, useLocation } from "react-router-dom";
 import Main from "../core/Main/Main";
 import Home from "../Components/Home/Home";
 import Services from "../Components/Services/Services";
@@ -9,29 +9,49 @@ import SuccessStories from "../Components/SuccessStories/SuccessStories";
 import ContactUs from "../Components/ContactUs/ContactUs";
 import SideBar from "../Components/SideBar/SideBar";
 import Line from "../Components/Line/Line";
-import SideBars from "../Components/SideBars/SideBars";
 
-export default function Approuter() {
+import { AnimatePresence } from "framer-motion";
+import Header from "../core/Header/Header";
+import Footer from "../core/Footer/Footer";
+
+
+
+
+function Approuter() {
     return (
-        <>
-            <BrowserRouter>
-                <Routes>
-                    <Route  element={<Main/>}  >
-                       <Route path="/" element={<Home/> }/>
-                       <Route path="/services" element={<Services/> }/>
-                       <Route path="/About" element={<About/> }/>
-                       <Route path="/whychooseus" element={<Why/> }/>
-                       <Route path="/ourprocess" element={<OurProcess/> }/>
-                       <Route path="/successstories" element={<SuccessStories/> }/>
-                       <Route path="/contact" element={<ContactUs/> }/>
-                     
-                         
-                    </Route >
-                    <Route path="/sidebar" element={<SideBar/> }/>
-                    <Route path="line" element={<Line/> }/>
-                    <Route path="/sidebars" element={<SideBars/> }/>
-                </Routes>
-            </BrowserRouter>
-        </>
-    )
+        <BrowserRouter>
+            <Header />
+           <SideBar/>
+           <Footer/>
+        
+            <RouterContent /> 
+        </BrowserRouter>
+    );
 }
+
+function RouterContent() {
+    const location = useLocation();
+
+    return (
+        <AnimatePresence mode="wait">
+            <Routes location={location} key={location.pathname}>
+                <Route element={<Main />}>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/About" element={<About />} />
+                    <Route path="/whychooseus" element={<Why />} />
+                    <Route path="/ourprocess" element={<OurProcess />} />
+                    <Route path="/successstories" element={<SuccessStories />} />
+                    <Route path="/contact" element={<ContactUs />} />
+               
+                    
+                </Route>
+                <Route path="/line" element={<Line />} />
+               
+               
+            </Routes>
+        </AnimatePresence>
+    );
+}
+
+export default Approuter;

@@ -6,14 +6,11 @@ import '../SuccessStories/SuccessStories.css'
 import 'aos/dist/aos.css';
 import Line from "../Line/Line";
 import { HelmetProvider } from "react-helmet-async";
-import SideBars from "../SideBars/SideBars";
+
+import Transition from "../Transition/Transition";
 
 function SuccessStories() {
-  const [isEntered, setIsEntered] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => setIsEntered(true), 10); // Delay ensures transition runs after mount
-  }, []);
  
   return (
     <>
@@ -22,7 +19,7 @@ function SuccessStories() {
         <meta charSet="utf-8" />
         <title>success Stories</title>
       </Helmet>
-      <div  className={`flex flex-wrap   md:gap-5 sm:gap-3 justify-center items-center  media h-screen  about   ${isEntered ? 'entered' : ''}`}>
+      <div  className="flex flex-wrap   md:gap-5 sm:gap-3 justify-center items-center  media h-screen  about " >
         <div >
           <p className="text-5xl text-green-950 ml-7">Success Stories</p>
           <img   className="w-[500px] h-[500px] p-5" src='/Images/successs.jpg' alt='success' />
@@ -88,10 +85,11 @@ function SuccessStories() {
       
       </div>
       </HelmetProvider>
-      <SideBars/>
+    
       <Line/>
     </>
   );
 }
 
-export default SuccessStories;
+export default Transition(SuccessStories);
+

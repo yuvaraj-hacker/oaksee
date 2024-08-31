@@ -12,6 +12,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.20",
+    "framer-motion": "^11.3.31",
     "postcss": "^8.4.41",
     "preline": "^2.4.1",
     "react": "^18.3.1",

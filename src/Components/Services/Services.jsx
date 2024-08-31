@@ -6,14 +6,11 @@ import '../Services/Services.css'
 import 'aos/dist/aos.css';
 import Line from '../Line/Line';
 import { HelmetProvider } from 'react-helmet-async';
-import SideBars from '../SideBars/SideBars';
+
+import Transition from '../Transition/Transition';
 
 function Services() {
-    const [isEntered, setIsEntered] = useState(false);
-
-    useEffect(() => {
-      setTimeout(() => setIsEntered(true), 10); // Delay ensures transition runs after mount
-    }, []);
+   
    
     return (
         <>
@@ -22,7 +19,7 @@ function Services() {
                 <meta charSet="utf-8" />
                 <title>services</title>
             </Helmet>
-           <div className={` lg:h-screen flex justify-center media items-center  about   ${isEntered ? 'entered' : ''}`}>
+           <div className= "lg:h-screen flex justify-center media items-center  about" >
 
           
             <div className="flex  flex-col justify-center   gap-3 service  ">
@@ -175,11 +172,11 @@ function Services() {
 
             </div>
             </HelmetProvider>
-            <SideBars />
+           
             <Line/>
 
         </>
     )
 }
 
-export default Services
+export default Transition(Services);

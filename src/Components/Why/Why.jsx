@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import Line from "../Line/Line";
 import { HelmetProvider } from "react-helmet-async";
 import SideBars from "../SideBars/SideBars";
+import Transition from "../Transition/Transition";
 
 function Why() {
   const [isEntered, setIsEntered] = useState(false);
@@ -114,10 +115,10 @@ function Why() {
       
       </div>
       </HelmetProvider>
-      <SideBars />
+     
       <Line/>
     </>
   );
 }
 
-export default Why;
+export default Transition(Why);
