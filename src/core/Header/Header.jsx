@@ -20,7 +20,7 @@ function Header() {
       <Link to="https://in.linkedin.com/"  > <img className="w-5 h-5"  src='Images/white2.png' alt='whitelinkedin'/></Link>
       <Link to="https://twitter.com/?lang=en"  > <img className="w-5 h-5 ml-3" src='Images/white3.png' alt='whitetwitter'/></Link>
       <Link to="https://www.facebook.com/"  > <img  className="w-5 h-5 ml-3"  src='Images/white1.png' alt='whitefacebook'/></Link>
-      <Link to="https://mail.google.com/mail/"  > <img  className="w-5 h-5 fixed right-3"  src='Images/Letter.png' alt='mail'/></Link>
+      <Link to="/contact"  > <img  className="w-5 h-5 fixed right-3"  src='Images/Letter.png' alt='mail'/></Link>
      
     </ul>
   </div>
