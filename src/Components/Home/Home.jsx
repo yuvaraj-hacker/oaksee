@@ -33,7 +33,7 @@ function Home() {
           </div>
           <Link to="/services" >
             <div className="flex flex-shrink-0 mt-3 gap-2 animation">
-              <img className="min-w-8 w-8 h-9  " src="/public/Images/Right Arrow.png" alt="rightarrow" />
+              <img className="min-w-8 w-8 h-9  " src="/Images/Right Arrow.png" alt="rightarrow" />
                 <p className=" text-green-950 text-2xl  whitespace-nowrap">See Our Services</p>
               <div className="flex gap-2 text-green-950 text-2xl">
                 
