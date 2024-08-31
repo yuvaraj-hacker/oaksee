@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .process {
+      margin:20px;
+     
+    }
+ 
+    
+  }
+
+
+  @media screen and (max-width: 890px) and (min-width: 590px) {
+    .process {
+    margin: 20px;
+    
+    }
+  }
+  
+   

@@ -1,0 +1,86 @@
+@media only screen and (max-width: 600px) {
+    .home {
+      position: fixed;
+      top: 60px;
+      left: 30px;
+     
+    }
+    .size{
+        font-size: 40px;
+    }
+    
+  }
+
+
+ 
+
+@media screen and (max-width: 890px) and (min-width: 590px) {
+  .home {
+   font-size:70px;
+   position: relative;
+   top: 90px;
+   left: 170px;
+  
+  }
+}
+
+
+
+
+
+.animation{
+  animation:word 1.5s linear ;
+  position: fixed;
+  overflow: hidden;
+
+}
+
+@keyframes word {
+  0%{
+    width: 0;
+  }
+50%{
+     width:50px ;
+}
+
+  100%{
+    width: 250px;
+  }
+}
+
+
+
+/* 
+@keyframes appear {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+} */
+
+/* .letter {
+  display: inline-block;
+  opacity: 0;
+  animation: appear 3s ease forwards;
+}
+
+.letter:nth-child(1) { animation-delay: 1s; }
+.letter:nth-child(2) { animation-delay: 2s; }
+.letter:nth-child(3) { animation-delay: 3s; }
+.letter:nth-child(4) { animation-delay: 4s; }
+.letter:nth-child(5) { animation-delay: 5s; }
+.letter:nth-child(6) { animation-delay: 6s; }
+.letter:nth-child(7) { animation-delay: 7s; }
+.letter:nth-child(8) { animation-delay: 8s; }
+.letter:nth-child(9) { animation-delay:9s; }
+.letter:nth-child(10) { animation-delay: 10s; } */
+
+
+
+
+
+  

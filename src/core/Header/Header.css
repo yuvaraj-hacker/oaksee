@@ -1,0 +1,18 @@
+
+@media only screen and (max-width: 1214px) {
+    .menu {
+     display:block;
+     
+     
+  }
+}
+
+
+
+@media only screen and (max-width: 1240px) {
+  .white {
+   background-color: white;
+   
+   
+}
+}
