@@ -30,7 +30,7 @@ function About() {
               </p>
             </div>
             <div>
-              <img className="lg:w-[1200px] lg:h-[550px] md:w-[900px] mt-5" src="Images/about.jpg" alt="about" />
+              <img className="lg:w-[1200px] lg:h-[550px] pages md:w-[900px] mt-5" src="Images/about.jpg" alt="about" />
             </div>
            
           </div>
