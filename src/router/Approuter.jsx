@@ -22,7 +22,7 @@ function Approuter() {
         <BrowserRouter>
             <Header />
            <SideBar/>
-           <Footer/>
+           
            <Line/>
             <RouterContent /> 
         </BrowserRouter>
@@ -43,6 +43,8 @@ function RouterContent() {
                     <Route path="/ourprocess" element={<OurProcess />} />
                     <Route path="/successstories" element={<SuccessStories />} />
                     <Route path="/contact" element={<ContactUs />} />
+            
+                    
                
                     
                 </Route>

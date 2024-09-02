@@ -30,7 +30,7 @@ function Services() {
                   
                 </div>
 
-                <div  className="  lg:w-[1200px] service-section  items-center hover:border hover:shadow-md bg-white border hover:shadow-red-100  md:w-[600px] sm:[150px] z-40    mx-auto flex flex-wrap    flex-1  gap-10 lg:p-4 md:p-2 ">
+                <div  className="  lg:w-[1200px] service-section  items-center hover:border hover:shadow-md bg-white border hover:shadow-yellow-100  md:w-[600px] sm:[150px] z-40    mx-auto flex flex-wrap    flex-1  gap-10 lg:p-4 md:p-2 ">
 
                     <div className="lg:w-[260px] md:[200px] h-fit z-40  resize   border-0  bg-green-950 p-5 text-lg text-yellow-500">
                         IT Strategy & Consulting
@@ -56,7 +56,7 @@ function Services() {
                     </div>
                 </div>
               
-                <div    className="lg:w-[1200px]  items-center z-40 border  hover:border hover:shadow-md bg-white hover:shadow-red-100  md:w-[600px] sm:[150px]  h-fit  mx-auto flex  flex-wrap flex-1  gap-10 lg:p-4 md:p-2 ">
+                <div    className="lg:w-[1200px]  items-center z-40 border  hover:border hover:shadow-md bg-white hover:shadow-yellow-100 md:w-[600px] sm:[150px]  h-fit  mx-auto flex  flex-wrap flex-1  gap-10 lg:p-4 md:p-2 ">
                     <div className="lg:w-[260px] md:[200px] h-fit  border-0 resize   bg-green-950 p-5 text-lg text-yellow-500">
                         Cybersecurity Solutions
                     </div>
@@ -79,7 +79,7 @@ function Services() {
                     </div>
                 </div>
               
-                <div  className="lg:w-[1200px]  items-center border  hover:border hover:shadow-md bg-white hover:shadow-red-100 z-40 md:w-[600px] sm:[150px]  h-fit  mx-auto flex flex-wrap  flex-1  gap-10 lg:p-4 md:p-2 ">
+                <div  className="lg:w-[1200px]  items-center border  hover:border hover:shadow-md bg-white hover:shadow-yellow-100 z-40 md:w-[600px] sm:[150px]  h-fit  mx-auto flex flex-wrap  flex-1  gap-10 lg:p-4 md:p-2 ">
                     <div className="lg:w-[260px] md:[200px] h-fit  border-0  resize  bg-green-950 p-5 text-lg text-yellow-500">
                         Cloud Services
                     </div>
@@ -100,7 +100,7 @@ function Services() {
 
                     </div>
                 </div>
-                <div  className="lg:w-[1200px]  items-center border  hover:border hover:shadow-md bg-white hover:shadow-red-100  z-40 md:w-[600px] sm:[150px]  h-fit   mx-auto flex  flex-wrap   flex-1  gap-10 lg:p-4 md:p-2 ">
+                <div  className="lg:w-[1200px]  items-center border  hover:border hover:shadow-md bg-white hover:shadow-yellow-100  z-40 md:w-[600px] sm:[150px]  h-fit   mx-auto flex  flex-wrap   flex-1  gap-10 lg:p-4 md:p-2 ">
                     <div className="lg:w-[260px] md:[200px] h-fit  border-0 resize   bg-green-950 p-5 text-lg text-yellow-500">
                         Managed IT Services
                     </div>
@@ -122,7 +122,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div    className="lg:w-[1200px]  items-center  border hover:border  hover:shadow-md bg-white hover:shadow-red-100 z-40 md:w-[600px] sm:[150px]  h-fit mx-auto flex flex-wrap  flex-1  gap-10 lg:p-4 md:p-2 ">
+                <div    className="lg:w-[1200px]  items-center  border hover:border  hover:shadow-md bg-white hover:shadow-yellow-100 z-40 md:w-[600px] sm:[150px]  h-fit mx-auto flex flex-wrap  flex-1  gap-10 lg:p-4 md:p-2 ">
                     <div className="lg:w-[260px] md:[200px] h-fit  border-0  resize  bg-green-950 p-5 text-lg text-yellow-500">
                         Software Development
                     </div>
@@ -145,7 +145,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div  className="lg:w-[1200px]  items-center  border hover:border hover:shadow-md bg-white hover:shadow-red-100 z-40 md:w-[600px] sm:[150px]  h-fit  mx-auto flex flex-wrap  flex-1  gap-10 lg:p-4 md:p-2 ">
+                <div  className="lg:w-[1200px]  items-center  border hover:border hover:shadow-md bg-white hover:shadow-yellow-100 z-40 md:w-[600px] sm:[150px]  h-fit  mx-auto flex flex-wrap  flex-1  gap-10 lg:p-4 md:p-2 ">
                     <div className="lg:w-[260px] md:[200px] h-fit  border-0  resize  bg-green-950 p-5 text-lg text-yellow-500">
                         Manpower Supply
                     </div>

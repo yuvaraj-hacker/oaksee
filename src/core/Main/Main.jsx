@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer'
 function Main() {
   return (
     <div>
-      <Header/>
+      
       <main>
         <Outlet/>
       </main>

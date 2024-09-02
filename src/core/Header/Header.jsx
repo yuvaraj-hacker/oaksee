@@ -97,7 +97,7 @@ function Header() {
         >
           <div className="flex flex-col gap-2 mt-10 six md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5 large lg:text-lg">
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950 lg:active:text-green-950  text-gray-400  hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/"
               aria-current="page"
               onClick={ handleClick}
@@ -106,42 +106,42 @@ function Header() {
               Home
             </Link>
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950   active:text-green-950 text-gray-400 hover:text-gray-300   focus:outline-none py-2 px-4"
               to="/about"
               onClick={ handleClick}
             >
              About Us
             </Link>
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950 active:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/services"
               onClick={ handleClick}
             >
               Services
             </Link>
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950 active:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/whychooseus"
               onClick={ handleClick}
             >
               Why Choose Us
             </Link>
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950 active:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/ourprocess"
               onClick={ handleClick}
             >
               Our Process
             </Link>
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950 active text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/successstories" 
               onClick={ handleClick}
             >
               Success Stories
             </Link>
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none    py-2 px-4"
+              className="font-medium focus:text-green-950 active:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none    py-2 px-4"
               to="/contact"
               onClick={ handleClick}
             >
