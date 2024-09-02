@@ -25,7 +25,7 @@ function Header() {
   }
 
   return ( <>
-   <div className="w-screen bg-green-950 h-10  fixed right-0 z-50 top-0  block class  md:hidden">
+   <div className="w-screen bg-green-950 h-10  right fixed right-0 z-50 top-0  block class  md:hidden">
     
     <ul className="flex">
       <Link to="https://in.linkedin.com/"  > <img className="w-6 h-6 mt-2   ml-3 "  src='Images/white2.png' alt='whitelinkedin'/></Link>
@@ -36,7 +36,7 @@ function Header() {
     </ul>
   </div>
   
-    <header className=" flex flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 white z-50   dark:bg-neutral-800 fixed md:top-0 top-10">
+    <header className=" flex right1 flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 white z-50   dark:bg-neutral-800 fixed md:top-0 top-10">
       <nav className="max-w-[85rem] lg:justify-center mx-auto gap-24 px-4 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-center gap-20  ">
          <Link to="/"> <img className="w-48" src="Images/Logo3 (6).png" alt="Logo" /> </Link>
