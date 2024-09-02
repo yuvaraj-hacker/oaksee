@@ -21,7 +21,7 @@ function OurProcess() {
         <meta charSet="utf-8" />
         <title>Our Process</title>
       </Helmet>
-    <div className="flex flex-wrap  justify-center lg:mt-32 lg:gap-3   items-center media  about  ">
+    <div className="flex flex-wrap  justify-center lg:mt-32 lg:gap-3   items-center media top  about  ">
         <div >
              <p   className="text-5xl text-green-950 lg:ml-2  mb-20">Our Process</p>
              <img   className="lg:w-[500px] lg:h-[500px] sized" src='/Images/process.jpg' alt='ourprocess'/>

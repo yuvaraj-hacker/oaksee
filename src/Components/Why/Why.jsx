@@ -21,7 +21,7 @@ function Why() {
         <title>Why Choose Us</title>
       </Helmet>
 
-      <div className="flex justify-center lg:mt-32  media  service  about  ">
+      <div className="flex justify-center lg:mt-32  media  service  about  top ">
       <div className="flex choose flex-col lg:gap-3  z-30">
         <h1 className="text-green-950 text-5xl lg:mb-14   ">
           {" "}

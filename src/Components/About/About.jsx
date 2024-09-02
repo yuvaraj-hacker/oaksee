@@ -17,7 +17,7 @@ function About() {
           <meta charSet="utf-8" />
           <title>About Us</title>
         </Helmet>
-        <div className="flex justify-center lg:mt-32 items-center   media about ">
+        <div className="flex justify-center lg:mt-32   top items-center   media about ">
           <div>
             <p className="text-5xl mb-5 text-green-950 z-50">About Us</p>
             <div>

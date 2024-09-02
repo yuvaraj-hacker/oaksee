@@ -20,10 +20,10 @@ function Services() {
                 <title>services</title>
             </Helmet>
           
-           <div className= " flex justify-center   media  service  lg:mt-32 about" >
+           <div className= " flex justify-center   media  service  lg:mt-32 about top" >
 
           
-            <div className="flex  flex-col justify-center   gap-3   ">
+            <div className="flex  flex-col justify-center   gap-3    ">
                 <div>
                    
                     <h1 className="text-green-950   text-5xl z-40  "> Services</h1>
