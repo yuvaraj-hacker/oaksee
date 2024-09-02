@@ -95,7 +95,7 @@ function Header() {
           } absolute top-full left-0 right-0 bg-green-950 dark:bg-green-950 transition-all duration-300 md:relative md:top-0 md:left-0 md:right-0 md:bg-transparent md:block md:z-auto`}
           aria-labelledby="hs-navbar-example-collapse"
         >
-          <div className="flex flex-col gap-2 mt-5 mb-5 md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5 large lg:text-lg">
+          <div className="flex flex-col gap-2 mt-10 six md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5 large lg:text-lg">
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/"
