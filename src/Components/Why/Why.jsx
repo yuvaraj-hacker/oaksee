@@ -29,7 +29,7 @@ function Why() {
           Choose Us?
         </h1>
         
-        <div   className="  sm:[150px] z-40  border experience  lg:w-[1200px]  flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2 rounded-md bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50  shadow-md  ">
+        <div   className="  sm:[150px] z-40  border experience  lg:w-[1200px]  flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2 rounded-md bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-1000  shadow-md  ">
 
           <div className="lg:w-[270px] md:[200px]  z-50   border-0   text-xl text-yellow-500">
             Expertise & Experience
@@ -47,7 +47,7 @@ function Why() {
 
           </div>
         </div>
-        <div  className="  rounded-md    lg:w-[1200px]   experience  z-40  h-fit border   flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50   shadow-md ">
+        <div  className="  rounded-md    lg:w-[1200px]   experience  z-40  h-fit border   flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-1000   shadow-md ">
           <div className="lg:w-[270px] md:[200px] h-fit z-50   border-0   text-xl text-yellow-500">
             Custom Centric Approach
           </div>
@@ -65,7 +65,7 @@ function Why() {
 
           </div>
         </div>
-        <div     className="  rounded-md  lg:w-[1200px]  sm:[150px] experience  z-40  h-[2-] border  flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50    shadow-md ">
+        <div     className="  rounded-md  lg:w-[1200px]  sm:[150px] experience  z-40  h-[2-] border  flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-1000    shadow-md ">
           <div className="lg:w-[270px] md:[200px] h-fit z-50   border-0   text-xl text-yellow-500">
             Proven Track Record
           </div>
@@ -83,7 +83,7 @@ function Why() {
 
           </div>
         </div>
-        <div     className=" rounded-md   lg:w-[1200px] sm:[150px] experience  z-40  h-1/2 border  flex flex-wrap  hover   flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50     shadow-md ">
+        <div     className=" rounded-md   lg:w-[1200px] sm:[150px] experience  z-40  h-1/2 border  flex flex-wrap  hover   flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-1000     shadow-md ">
           <div className="lg:w-[270px] md:[200px] h-fit z-50   border-0   text-xl text-yellow-500">
             Cutting-Edge Technology
           </div>
