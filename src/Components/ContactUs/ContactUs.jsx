@@ -21,10 +21,10 @@ function ContactUs() {
             <meta charSet="utf-8" />
             <title>ContactUs</title>
          </Helmet>
-         <div className="flex flex-wrap lg:gap-28 md:gap-16  gap items-center justify-center h-screen media about  ">
+         <div className="flex flex-wrap lg:mt-32 lg:gap-26  md:gap-16  gap  justify-center  media about  ">
             
             <div  className="   contact">
-               <p className=" text-5xl mb-5 text-green-950">Contact </p>
+               <p className=" text-5xl mb-5 text-green-950 lg:mb-20">Contact </p>
                <div className="flex gap-1">
                   <p className="text-yellow-700 text-xl">Address:</p>
                   <p className="text-xl  text-green-950">1234 Elm Street, Suite 567, Anytown, USA</p>
@@ -62,7 +62,7 @@ function ContactUs() {
                </div>
               
             </div>
-            <div  className="mapper "     >
+            <div  className="mapper  lg:mt-32 "     >
             <iframe  className=" h-full w-full " src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3312.8844631949823!2d-117.55050800314665!3d33.86686832749506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1725017305347!5m2!1sen!2sin" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
            

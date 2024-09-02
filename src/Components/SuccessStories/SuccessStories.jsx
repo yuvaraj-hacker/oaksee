@@ -19,13 +19,13 @@ function SuccessStories() {
         <meta charSet="utf-8" />
         <title>success Stories</title>
       </Helmet>
-      <div  className="flex flex-wrap   md:gap-5 sm:gap-3 justify-center items-center  media h-screen  about " >
+      <div  className="flex flex-wrap lg:mt-32  lg:gap-[70px]  md:gap-5 sm:gap-3 justify-center items-center  media   about " >
         <div >
-          <p className="text-5xl text-green-950 ml-7">Success Stories</p>
-          <img   className="w-[500px] lg:h-[500px] p-5 sized" src='/Images/successs.jpg' alt='success' />
+          <p className="text-5xl text-green-950 ml-2 lg:mb-20">Success Stories</p>
+          <img   className="lg:w-[500px] lg:h-[500px]  sized" src='/Images/successs.jpg' alt='success' />
         </div>
-        <div    className="lg:w-2/5 md:w-3/5 success">
-          <div className="lg:mt-14 ">
+        <div    className="lg:w-1/3 md:w-3/5 lg:mt-8 success">
+          <div className=" ">
             <div className="flex z-50  " >
 
               <div className="p-2  ">

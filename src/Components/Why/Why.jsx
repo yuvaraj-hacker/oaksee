@@ -6,15 +6,11 @@ import '../Why/Why.css'
 import 'aos/dist/aos.css';
 import Line from "../Line/Line";
 import { HelmetProvider } from "react-helmet-async";
-import SideBars from "../SideBars/SideBars";
+
 import Transition from "../Transition/Transition";
 
 function Why() {
-  const [isEntered, setIsEntered] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => setIsEntered(true), 10); // Delay ensures transition runs after mount
-  }, []);
 
 
   return (
@@ -25,15 +21,15 @@ function Why() {
         <title>Why Choose Us</title>
       </Helmet>
 
-      <div className={`flex justify-center lg:mt-[140px]  media items-center  about   ${isEntered ? 'entered' : ''}`}>
-      <div className="flex choose flex-col gap-10  z-30">
+      <div className="flex justify-center lg:mt-32  media  service  about  ">
+      <div className="flex choose flex-col lg:gap-3  z-30">
         <h1 className="text-green-950 text-5xl   ">
           {" "}
           Why <br />
           Choose Us?
         </h1>
         
-        <div   className="  sm:[150px] z-40  border experience  lg:w-[1200px]  flex flex-wrap    flex-1  gap-20 lg:p-4 md:p-2 rounded-md bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50  shadow-md  ">
+        <div   className="  sm:[150px] z-40  border experience  lg:w-[1200px]  flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2 rounded-md bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50  shadow-md  ">
 
           <div className="lg:w-[270px] md:[200px]  z-50   border-0   text-xl text-yellow-500">
             Expertise & Experience
@@ -51,7 +47,7 @@ function Why() {
 
           </div>
         </div>
-        <div  className="  rounded-md  sm:[150px]  experience  z-40  h-fit border   flex flex-wrap    flex-1  gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50   shadow-md ">
+        <div  className="  rounded-md    lg:w-[1200px]   experience  z-40  h-fit border   flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50   shadow-md ">
           <div className="lg:w-[270px] md:[200px] h-fit z-50   border-0   text-xl text-yellow-500">
             Custom Centric Approach
           </div>
@@ -69,7 +65,7 @@ function Why() {
 
           </div>
         </div>
-        <div     className="  rounded-md  sm:[150px] experience  z-40  h-[2-] border  flex flex-wrap    flex-1  gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50    shadow-md ">
+        <div     className="  rounded-md  lg:w-[1200px]  sm:[150px] experience  z-40  h-[2-] border  flex flex-wrap    flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50    shadow-md ">
           <div className="lg:w-[270px] md:[200px] h-fit z-50   border-0   text-xl text-yellow-500">
             Proven Track Record
           </div>
@@ -87,7 +83,7 @@ function Why() {
 
           </div>
         </div>
-        <div     className=" rounded-md  sm:[150px] experience  z-40  h-1/2 border  flex flex-wrap  hover   flex-1  gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50     shadow-md ">
+        <div     className=" rounded-md   lg:w-[1200px] sm:[150px] experience  z-40  h-1/2 border  flex flex-wrap  hover   flex-1  lg:gap-20 lg:p-4 md:p-2  bg-green-950  text-white hover:bg-white hover:text-green-950  hover:transition-colors hover:duration-50     shadow-md ">
           <div className="lg:w-[270px] md:[200px] h-fit z-50   border-0   text-xl text-yellow-500">
             Cutting-Edge Technology
           </div>

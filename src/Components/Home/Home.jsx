@@ -18,7 +18,7 @@ function Home() {
         <meta charSet="utf-8" />
         <title>Home</title>
       </Helmet>
-      <div className="flex  flex-wrap justify-center items-center media   home lg:h-screen  ">
+      <div className="flex  flex-wrap lg:justify-center lg:items-center media   home lg:h-screen  ">
         <div>
           <div className="flex flex-wrap gap-2">
             <p className="text-green-950 text-2xl">Welcome To</p>
@@ -29,13 +29,10 @@ function Home() {
             <p className="lg:text-7xl md:text-7xl font-bold   text-yellow-600  z-30 size">IT Excellence</p>
           </div>
           <Link to="/services" >
-            <div className="flex flex-shrink-0 mt-3 gap-2 animation">
+            <div className="flex flex-shrink-0 mt-3 gap-2 animation md:mb-0 mb-72">
               <img className="min-w-8 w-8 h-9  " src="/Images/Right Arrow.png" alt="rightarrow" />
                 <p className=" text-green-950 text-2xl  whitespace-nowrap">See Our Services</p>
-              <div className="flex gap-2 text-green-950 text-2xl">
-                
-
-              </div>
+            
 
             </div>
           </Link>

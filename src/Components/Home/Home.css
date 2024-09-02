@@ -1,8 +1,11 @@
 @media only screen and (max-width: 600px) {
     .home {
-      position: fixed;
-      top: 60px;
-      left: 30px;
+     position: static;
+      margin-left:40px;
+      
+
+    
+      
      
     }
     .size{
@@ -30,7 +33,7 @@
 
 .animation{
   animation:word 1.5s linear ;
-  position: fixed;
+ 
   overflow: hidden;
 
 }
