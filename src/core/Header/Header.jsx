@@ -107,17 +107,17 @@ function Header() {
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              to="/about"
+              onClick={ handleClick}
+            >
+             About Us
+            </Link>
+            <Link
+              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/services"
               onClick={ handleClick}
             >
               Services
-            </Link>
-            <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
-              to="/About"
-              onClick={ handleClick}
-            >
-              About Us
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
