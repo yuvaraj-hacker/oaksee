@@ -134,7 +134,7 @@ function Header() {
               Our Process
             </Link>
             <Link
-              className="font-medium focus:text-green-950 active text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950 active:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/successstories" 
               onClick={ handleClick}
             >
