@@ -20,7 +20,7 @@ function Services() {
                 <title>services</title>
             </Helmet>
           
-           <div className= "lg:h-screen top flex justify-center media items-center  about" >
+           <div className= "lg:h-screen top flex justify-center  media items-center   about" >
 
           
             <div className="flex  flex-col justify-center   gap-3 service  ">
@@ -30,7 +30,7 @@ function Services() {
                   
                 </div>
 
-                <div  className=" lg:w-[1200px] service-section  items-center hover:border hover:shadow-md bg-white border hover:shadow-red-100  md:w-[600px] sm:[150px] z-40    mx-auto flex flex-wrap    flex-1  gap-10 lg:p-4 md:p-2 ">
+                <div  className="  lg:w-[1200px] service-section  items-center hover:border hover:shadow-md bg-white border hover:shadow-red-100  md:w-[600px] sm:[150px] z-40    mx-auto flex flex-wrap    flex-1  gap-10 lg:p-4 md:p-2 ">
 
                     <div className="lg:w-[260px] md:[200px] h-fit z-40  resize   border-0  bg-green-950 p-5 text-lg text-yellow-500">
                         IT Strategy & Consulting
