@@ -19,12 +19,12 @@ function SuccessStories() {
         <meta charSet="utf-8" />
         <title>success Stories</title>
       </Helmet>
-      <div  className="flex flex-wrap lg:mt-32  lg:gap-[70px]  md:gap-5 sm:gap-3 justify-center items-center top  media   about " >
+      <div  className="flex flex-wrap lg:mt-32  top  md:gap-5 sm:gap-3 justify-center items-center  media   about " >
         <div >
           <p className="text-5xl text-green-950 ml-2 lg:mb-20">Success Stories</p>
           <img   className="lg:w-[500px] lg:h-[500px]  sized" src='/Images/successs.jpg' alt='success' />
         </div>
-        <div    className="lg:w-1/3 md:w-3/5 lg:mt-8 success">
+        <div    className=" lg:mt-8 success">
           <div className=" ">
             <div className="flex z-50  " >
 
@@ -68,7 +68,7 @@ function SuccessStories() {
             <div className="flex mt-5 z-50 ">
 
               <div className="p-2">
-                <div className="flex  flex-wrap gap-1 mb-2  client">
+                <div className="flex flex-wrap gap-1 mb-2  client">
                   <p className=" text-yellow-600  lg:text-xl  font-medium">Client D:</p>
                   <p className="text-green-950  lg:text-xl  font-medium">Manpower Supply</p>
 
