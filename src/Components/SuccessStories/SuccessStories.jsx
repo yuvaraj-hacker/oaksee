@@ -29,7 +29,7 @@ function SuccessStories() {
             <div className="flex z-50  " >
 
               <div className="p-2  ">
-                <div className="flex gap-1">
+                <div className="flex gap-1 mb-2 mt-1">
                   <p className=" text-yellow-600 text-xl font-medium">Client A:</p>
                   <p className="text-green-950 text-xl font-medium">Digital Transformation</p>
 
@@ -39,10 +39,10 @@ function SuccessStories() {
                   Oaksee LLC transfomed cient A's operations by implementing a comprehensive digital strategy, resulting in a 30% increase in efficiency and a 20% reduction in costs. </p>
               </div>
             </div>
-            <div className="flex mt-8 z-50 ">
+            <div className="flex mt-5 z-50 ">
 
               <div className="p-2">
-                <div className="flex gap-1">
+                <div className="flex gap-1  mb-2">
                   <p className=" text-yellow-600  text-xl  font-medium">Client B:</p>
                   <p className="text-green-950  text-xl  font-medium">Cybersecurity Enhancement </p>
 
@@ -52,10 +52,10 @@ function SuccessStories() {
                   We helped a client B fortify their cybersecurity defenses, reducing the risk of data breaches and ensuring compliance with industry regulations. </p>
               </div>
             </div>
-            <div className="flex mt-8 z-50 ">
+            <div className="flex mt-5 z-50 ">
 
-              <div className="p-2">
-                <div className="flex gap-1">
+              <div className="p-2 ">
+                <div className="flex gap-1 mb-2">
                   <p className=" text-yellow-600  text-xl  font-medium">Client C:</p>
                   <p className="text-green-950  text-xl  font-medium">Cloud Migration</p>
 
@@ -65,16 +65,16 @@ function SuccessStories() {
                   By migrating client C's systems to the cloud, we improved their scalability and flexibility, enabling them to expand their services globally. </p>
               </div>
             </div>
-            <div className="flex mt-8 z-50 ">
+            <div className="flex mt-5 z-50 ">
 
               <div className="p-2">
-                <div className="flex gap-1">
+                <div className="flex gap-1 mb-2">
                   <p className=" text-yellow-600  text-xl  font-medium">Client D:</p>
                   <p className="text-green-950  text-xl  font-medium">Manpower Supply</p>
 
                 </div>
 
-                <p className="text-green-950 text-justify  ">
+                <p className="text-green-950 text-justify   ">
                   We provided client D with a team of highly skilled IT professionals for a major project, resulting in timely completion and exceeding client expectations. </p>
               </div>
             </div>

@@ -28,7 +28,7 @@ function Header() {
     <header className=" flex flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 white z-50 dark:bg-neutral-800 fixed md:top-0 top-10">
       <nav className="max-w-[85rem] lg:justify-center mx-auto gap-24 px-4 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-center gap-20  ">
-          <img className="w-48" src="Images/Logo3 (6).png" alt="Logo" />
+         <Link to="/"> <img className="w-48" src="Images/Logo3 (6).png" alt="Logo" /> </Link>
           <div className="md:hidden">
             <button
               type="button"

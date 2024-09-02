@@ -20,15 +20,26 @@ const SideBar = () => {
     
     </div>
       <ul className="fixed right-0 top-10 w-14 p-4 z-50 sidebar ">
-      <Link to="https://in.linkedin.com/">
+        <a  href='https://in.linkedin.com/'  target="_blank">
+     
+
         <img className="cursor-pointer mt-5" src="Images/white2.png" alt="whitelinkedin" />
-      </Link>
-      <Link to="https://twitter.com/?lang=en">
+     
+      </a>
+      <a href='https://twitter.com/?lang=en' target="_blank">
+
+      
+      
         <img className="mt-5" src="Images/white3.png" alt="whitetwitter" />
-      </Link>
-      <Link to="https://www.facebook.com/">
+     
+      </a>
+      <a href='https://www.facebook.com/'  target="_blank">
+
+     
+     
         <img className="mt-5" src="Images/white1.png" alt="whitefacebook" />
-      </Link>
+    
+      </a>
       <Link to="/contact">
         <img className="mt-[700px]" src="Images/Letter.png" alt="mail" />
       </Link>
