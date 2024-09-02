@@ -13,6 +13,17 @@ function Header() {
     setIsOpen(false);
   };
 
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+
+  function handleClick() {
+    closeMenu();
+    scrollToTop();
+  }
+
   return ( <>
    <div className="w-screen bg-green-950 h-10 p-4 fixed right-0 z-50 top-0 sidebar block  md:hidden">
     
@@ -34,6 +45,7 @@ function Header() {
               type="button"
               className="relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10"
               onClick={toggleMenu}
+             
               aria-expanded={isOpen}
               aria-controls="hs-navbar-example"
               aria-label="Toggle navigation"
@@ -88,49 +100,50 @@ function Header() {
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/"
               aria-current="page"
-              onClick={closeMenu}
+              onClick={ handleClick}
+             
             >
               Home
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/services"
-              onClick={closeMenu}
+              onClick={ handleClick}
             >
               Services
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/About"
-              onClick={closeMenu}
+              onClick={ handleClick}
             >
               About Us
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/whychooseus"
-              onClick={closeMenu}
+              onClick={ handleClick}
             >
               Why Choose Us
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/ourprocess"
-              onClick={closeMenu}
+              onClick={ handleClick}
             >
               Our Process
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/successstories" 
-              onClick={closeMenu}
+              onClick={ handleClick}
             >
               Success Stories
             </Link>
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/contact"
-              onClick={closeMenu}
+              onClick={ handleClick}
             >
               Contact Us
             </Link>
