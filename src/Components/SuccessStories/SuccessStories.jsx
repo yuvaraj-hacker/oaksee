@@ -29,9 +29,9 @@ function SuccessStories() {
             <div className="flex z-50  " >
 
               <div className="p-2  ">
-                <div className="flex gap-1 mb-2 mt-1">
-                  <p className=" text-yellow-600 text-xl font-medium">Client A:</p>
-                  <p className="text-green-950 text-xl font-medium">Digital Transformation</p>
+                <div className="flex  flex-wrap gap-1 mb-2 mt-1  client ">
+                  <p className=" text-yellow-600 lg:text-xl font-medium ">Client A:</p>
+                  <p className="text-green-950 lg:text-xl font-medium">Digital Transformation</p>
 
                 </div>
 
@@ -42,9 +42,9 @@ function SuccessStories() {
             <div className="flex mt-5 z-50 ">
 
               <div className="p-2">
-                <div className="flex gap-1  mb-2">
-                  <p className=" text-yellow-600  text-xl  font-medium">Client B:</p>
-                  <p className="text-green-950  text-xl  font-medium">Cybersecurity Enhancement </p>
+                <div className="flex  flex-wrap gap-1  mb-2  client">
+                  <p className=" text-yellow-600  lg:text-xl  font-medium">Client B:</p>
+                  <p className="text-green-950  lg:text-xl  font-medium">Cybersecurity Enhancement </p>
 
                 </div>
 
@@ -55,9 +55,9 @@ function SuccessStories() {
             <div className="flex mt-5 z-50 ">
 
               <div className="p-2 ">
-                <div className="flex gap-1 mb-2">
-                  <p className=" text-yellow-600  text-xl  font-medium">Client C:</p>
-                  <p className="text-green-950  text-xl  font-medium">Cloud Migration</p>
+                <div className="flex  flex-wrap gap-1 mb-2  client">
+                  <p className=" text-yellow-600  lg:text-xl  font-medium">Client C:</p>
+                  <p className="text-green-950  lg:text-xl  font-medium">Cloud Migration</p>
 
                 </div>
 
@@ -68,9 +68,9 @@ function SuccessStories() {
             <div className="flex mt-5 z-50 ">
 
               <div className="p-2">
-                <div className="flex gap-1 mb-2">
-                  <p className=" text-yellow-600  text-xl  font-medium">Client D:</p>
-                  <p className="text-green-950  text-xl  font-medium">Manpower Supply</p>
+                <div className="flex  flex-wrap gap-1 mb-2  client">
+                  <p className=" text-yellow-600  lg:text-xl  font-medium">Client D:</p>
+                  <p className="text-green-950  lg:text-xl  font-medium">Manpower Supply</p>
 
                 </div>
 

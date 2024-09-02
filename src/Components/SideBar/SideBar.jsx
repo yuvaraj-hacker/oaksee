@@ -41,7 +41,7 @@ const SideBar = () => {
     
       </a>
       <Link to="/contact">
-        <img className="mt-[700px]" src="Images/Letter.png" alt="mail" />
+        <img className="lg:mt-[700px] mail" src="Images/Letter.png" alt="mail" />
       </Link>
     </ul>
     </>

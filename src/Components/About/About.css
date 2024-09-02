@@ -13,7 +13,8 @@
 @media only screen and (max-width: 600px) {
   .pages {
     width:500px ;
-    height: 220px;
+    height: 170px;
+    margin-bottom: 40px;
    
   }
 }

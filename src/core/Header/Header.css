@@ -9,10 +9,24 @@
 
 
 
-@media only screen and (max-width: 1240px) {
+
+
+
+
+@media only screen and (max-width: 1300px) {
+  .large {
+   font-size: larger !important;
+   
+   
+}
+}
+
+
+ 
+ @media only screen and (max-width: 1240px) {
   .white {
+   
    background-color: white;
    
-   
 }
-}
+} 

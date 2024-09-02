@@ -25,18 +25,18 @@ function Header() {
   }
 
   return ( <>
-   <div className="w-screen bg-green-950 h-10 p-4 fixed right-0 z-50 top-0 sidebar block  md:hidden">
+   <div className="w-screen bg-green-950 h-10  fixed right-0 z-50 top-0  block class  md:hidden">
     
     <ul className="flex">
-      <Link to="https://in.linkedin.com/"  > <img className="w-5 h-5"  src='Images/white2.png' alt='whitelinkedin'/></Link>
-      <Link to="https://twitter.com/?lang=en"  > <img className="w-5 h-5 ml-3" src='Images/white3.png' alt='whitetwitter'/></Link>
-      <Link to="https://www.facebook.com/"  > <img  className="w-5 h-5 ml-3"  src='Images/white1.png' alt='whitefacebook'/></Link>
-      <Link to="/contact"  > <img  className="w-5 h-5 fixed right-3"  src='Images/Letter.png' alt='mail'/></Link>
+      <Link to="https://in.linkedin.com/"  > <img className="w-6 h-6 mt-2   ml-3 "  src='Images/white2.png' alt='whitelinkedin'/></Link>
+      <Link to="https://twitter.com/?lang=en"  > <img className="w-6 mt-2 h-6  ml-3" src='Images/white3.png' alt='whitetwitter'/></Link>
+      <Link to="https://www.facebook.com/"  > <img  className="w-6  h-6 mt-2   ml-3"  src='Images/white1.png' alt='whitefacebook'/></Link>
+      <Link to="/contact"  > <img  className="w-6 h-6 fixed right-3  mt-2 "  src='Images/Letter.png' alt='mail'/></Link>
      
     </ul>
   </div>
- 
-    <header className=" flex flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 white z-50 dark:bg-neutral-800 fixed md:top-0 top-10">
+  
+    <header className=" flex flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 white z-50   dark:bg-neutral-800 fixed md:top-0 top-10">
       <nav className="max-w-[85rem] lg:justify-center mx-auto gap-24 px-4 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-center gap-20  ">
          <Link to="/"> <img className="w-48" src="Images/Logo3 (6).png" alt="Logo" /> </Link>
@@ -95,7 +95,7 @@ function Header() {
           } absolute top-full left-0 right-0 bg-green-950 dark:bg-green-950 transition-all duration-300 md:relative md:top-0 md:left-0 md:right-0 md:bg-transparent md:block md:z-auto`}
           aria-labelledby="hs-navbar-example-collapse"
         >
-          <div className="flex flex-col gap-2 mt-5 md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5 text-lg">
+          <div className="flex flex-col gap-2 mt-5 md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5 large lg:text-lg">
             <Link
               className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
               to="/"
@@ -141,7 +141,7 @@ function Header() {
               Success Stories
             </Link>
             <Link
-              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none py-2 px-4"
+              className="font-medium focus:text-green-950 text-gray-400 hover:text-gray-300  focus:outline-none us   py-2 px-4"
               to="/contact"
               onClick={ handleClick}
             >

@@ -1,32 +1,24 @@
 
-@media only screen and (max-width: 1100px) {
-    .copyright {
-      position:fixed;
-     bottom:0;
-     left: 0px;
-     font-size:13px;
-     padding-left: 100px;
-     margin-top: 10px;
-     margin-bottom:10px;
-     
-     
-  }
-}
    
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1360px) {
   .copyright {
-    position:fixed;
-   bottom:0;
-   left: 0px;
-   font-size:13px;
-   padding-left: 33px;
-   margin-top: 10px;
+    position:fixed ;
+   bottom:0 !important;
+   left: 0px !important;
+   font-size:13px !important;
+   padding-left: 33px !important;
+   margin-top: 10px !important;
+   margin-bottom: 15px !important;
    
    
 }
 }
+
+
+
+
  
 
 
