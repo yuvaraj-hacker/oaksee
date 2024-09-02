@@ -23,7 +23,7 @@ function Why() {
 
       <div className="flex justify-center lg:mt-32  media  service  about  ">
       <div className="flex choose flex-col lg:gap-3  z-30">
-        <h1 className="text-green-950 text-5xl   ">
+        <h1 className="text-green-950 text-5xl lg:mb-14   ">
           {" "}
           Why <br />
           Choose Us?
