@@ -27,14 +27,14 @@ function Header() {
       <Link to="/contact"  > <img  className="w-6 h-6 fixed right-3  mt-2 "  src='Images/Letter.png' alt='mail'/></Link>
     </ul>
   </div>
-    <header className=" flex  flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 z-50  bg-white dark:bg-neutral-800 fixed lg:top-0 top-10">
+    <header className=" flex  flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 z-50  bg-white  fixed lg:top-0 top-10">
       <nav className=" mx-auto  px-4 flex items-center 2xl:gap-80 xl:gap-40 ">
         <div className="flex items-center justify-center gap-28  ">
          <Link to="/"> <img className="w-48" src="Images/Logo3 (6).png" alt="Logo" /> </Link>
           <div className="xl:hidden lg:hidden  ">
             <button
               type="button"
-              className="relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10"
+              className="relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 "
               onClick={toggleMenu}
               aria-expanded={isOpen}
               aria-controls="hs-navbar-example"
@@ -82,7 +82,7 @@ function Header() {
           id="hs-navbar-example"
           className={`${
             isOpen ? 'block z-50' : 'hidden'
-          } absolute top-full left-0 right-0 bg-white lg:border-none border  rounded-md dark:bg-green-950 transition-all duration-300 lg:relative md:top-20 lg:top-0 md:left-0 md:right-0 lg:block      lg:bg-transparent xl:block md:z-auto`}
+          } absolute top-full left-0 right-0 bg-white lg:border-none border  rounded-md  transition-all duration-300 lg:relative md:top-20 lg:top-0 md:left-0 md:right-0 lg:block      lg:bg-transparent xl:block md:z-auto`}
           aria-labelledby="hs-navbar-example-collapse   "
         >
           <div className="flex flex-col gap-5 mt-10 six lg:flex-row  lg:my-0 my-10 md:my-10 text-center  md:items-center md:justify-end   ">
