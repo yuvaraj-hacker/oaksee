@@ -36,7 +36,7 @@ function RouterContent() {
         <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
                 <Route element={<Main />}>
-                    <Route path="/" element={<Home />} />
+                   
                     <Route path="/services" element={<Services />} />
                     <Route path="/About" element={<About />} />
                     <Route path="/whychooseus" element={<Why />} />
@@ -48,6 +48,7 @@ function RouterContent() {
                
                     
                 </Route>
+                <Route path="/" element={<Home />} />
                
                
                

@@ -1,72 +1,70 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
-
 import '../OurProcess/Process.css'
-
-
 import Line from '../Line/Line';
 import { HelmetProvider } from 'react-helmet-async';
-
 import Transition from '../Transition/Transition';
-
-
 function OurProcess() {
-  
- 
-
   return (
     <>
-    <HelmetProvider>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Our Process</title>
-      </Helmet>
-    <div className="flex flex-wrap  justify-center lg:mt-32 lg:gap-3   items-center media top  about  ">
-        <div >
-             <p   className="text-5xl text-green-950 lg:ml-2  mb-20">Our Process</p>
-             <img   className="lg:w-[500px] lg:h-[500px] sized" src='/Images/process.jpg' alt='ourprocess'/>
-        </div>
-        <div        className="process ">
-            <div className="lg:mt-16">
-                <div className="flex "> 
-                    <p className="text-8xl p-2 font-semibold text-gray-200">1</p>
-                   <div className="p-5 mx-4">
-                    <p className=" text-yellow-600 text-xl ">Discovery & Analysis</p>
-                    <p className="text-green-950">We start by understanding your business needs, challenges, and goals. </p>
-                   </div>
+      <HelmetProvider>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Our Process</title>
+        </Helmet>
+        <section className="max-w-[78rem] mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
+          <div className="grid grid-cols-1   ">
+            <div className="">
+              <p className="text-5xl  text-green-950 z-50  ml-5">Our Process</p>
+              <div className='lg:grid lg:grid-cols-6  '>
+                <img className=" col-span-3  " src='/Images/process.jpg' alt='ourprocess' />
+                <div className='col-span-3 flex justify-center items-center' >
+                  <div className=''>
+                    <div className="flex ">
+                      <p className="text-8xl p-2 font-semibold text-gray-200">1</p>
+                      <div className="p-5 mx-4">
+                        <p className=" text-yellow-600 text-xl ">Discovery & Analysis</p>
+                        <p className="text-green-950">We start by understanding your business needs, challenges, and goals. </p>
+                      </div>
+                    </div>
+                    <div className="flex ">
+                      <p className="text-8xl p-1  font-semibold text-gray-200">2</p>
+                      <div className="p-5">
+                        <p className=" text-yellow-600  text-xl">Strategy Development </p>
+                        <p className="text-green-950">We create a customized IT strategy that aligns with your objectives. </p>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <p className="text-8xl p-1 mt-2 font-semibold text-gray-200">3</p>
+                      <div className="p-5">
+                        <p className=" text-yellow-600  text-xl">Implementation</p>
+                        <p className="text-green-950">We deploy the right solutions, ensuring a smooth transition with minimal disruption. </p>
+                      </div>
+                    </div>
+                    <div className="flex ">
+                      <p className="text-8xl mt-2  font-semibold text-gray-200">4</p>
+                      <div className="p-5">
+                        <p className=" text-yellow-600  text-xl">Support & Maintenance</p>
+                        <p className="text-green-950">We provide ongoing support to keep your IT infrastructure running smoothly and efficiently. </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="flex mt-2"> 
-                <p className="text-8xl p-1  font-semibold text-gray-200">2</p>
-                   <div className="p-5">
-                    <p className=" text-yellow-600  text-xl">Strategy Development </p>
-                    <p className="text-green-950">We create a customized IT strategy that aligns with your objectives. </p>
-                   </div>
-                </div>
-                <div className="flex mt-2"> 
-                <p className="text-8xl p-1 mt-2 font-semibold text-gray-200">3</p>
-                   <div className="p-5">
-                    <p  className=" text-yellow-600  text-xl">Implementation</p>
-                    <p className="text-green-950">We deploy the right solutions, ensuring a smooth transition with minimal disruption. </p>
-                   </div>
-                </div>
-                <div className="flex mt-2"> 
-                <p className="text-8xl mt-2  font-semibold text-gray-200">4</p>
-                   <div className="p-5">
-                    <p  className=" text-yellow-600  text-xl">Support & Maintenance</p>
-                    <p className="text-green-950">We provide ongoing support to keep your IT infrastructure running smoothly and efficiently. </p>
-                   </div>
-                </div>
-                
+              </div>
             </div>
-          
-        </div>
-       
-    </div>
-    </HelmetProvider>
-    
-    <Line/>
+          </div>
+        </section>
+        <section className="  max-w-[100rem] mx-auto px-3 lg:text-lg text-sm 2xl:mt-[7.5rem] my-4" >
+          <div className="lg:grid lg:grid-cols-2  grid grid-cols-1 text-center ">
+            <div className="gap-2">
+              <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
+              <span className="text-yellow-700">OAKSEE</span>
+            </div>
+          </div>
+        </section>
+      </HelmetProvider>
+      <Line />
     </>
   )
 }
-
 export default Transition(OurProcess);

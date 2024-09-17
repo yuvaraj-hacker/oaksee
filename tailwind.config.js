@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       screens:{
-        'md': '900px',
+        // 'md': '900px',
       }
       
     },

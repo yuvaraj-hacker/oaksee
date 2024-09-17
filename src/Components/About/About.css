@@ -45,3 +45,39 @@
   }
 }
 
+
+
+
+
+
+
+
+  /* Ensure the main page content fills the screen and footer stays at the bottom */
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full screen height */
+  }
+  
+  .content {
+    flex-grow: 1; /* Allow content to take the available space */
+  }
+  
+  .footer {
+    /* Optional styling for the footer */
+  
+    padding: 1rem;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  

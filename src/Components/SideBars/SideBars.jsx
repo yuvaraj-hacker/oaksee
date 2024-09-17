@@ -1,16 +1,12 @@
-
 import React  from 'react';
 import { Link } from 'react-router-dom';
 import '../SideBar/SideBar.css';
-
 const SideBars = () => {
-  
   return (
     <>
-    <div 
+    {/* <div 
       className={`w-14 bg-green-950 h-screen p-4 fixed right-0 top-0 z-50 sidebar hidden md:block  `}
     >
-    
     </div>
       <ul className="fixed right-0 top-5 w-14 p-4 z-50 sidebar ">
       <Link to="https://in.linkedin.com/">
@@ -25,9 +21,8 @@ const SideBars = () => {
       <Link to="/contact">
         <img className="mt-[700px]" src="Images/Letter.png" alt="mail" />
       </Link>
-    </ul>
+    </ul> */}
     </>
   );
 };
-
 export default SideBars;

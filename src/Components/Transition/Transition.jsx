@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 const Transition = (OgComponent) => {
   return () => (
     <motion.div
@@ -12,5 +11,4 @@ const Transition = (OgComponent) => {
     </motion.div>
   );
 };
-
 export default Transition;
