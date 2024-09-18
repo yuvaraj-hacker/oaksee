@@ -14,22 +14,22 @@ function ContactUs() {
                <meta charSet="utf-8" />
                <title>ContactUs</title>
             </Helmet>
-            <div className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]   mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5    ">
+            <div className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]   mx-auto   heights mt-36  2xl:px-5 xl:px-14 lg:px-16 px-5    ">
                <div className='grid grid-cols-1 '>
                   <p className=" text-5xl  text-green-950 mb-5 ">Contact </p>
-                  <div className='lg:grid lg:grid-cols-6 '>
+                  <div className='lg:grid lg:grid-cols-6 3 '>
                      <div className=" col-span-3  ">
-                        <div className="flex gap-1">
-                           <p className="text-yellow-700 text-xl">Address:</p>
-                           <p className="text-xl  text-green-950">1234 Elm Street, Suite 567, Anytown, USA</p>
+                        <div className="grid grid-cols-6 2xl:space-x-0  space-x-5">
+                           <p className="text-yellow-700 lg:text-xl text-lg col-span-1 ">Address</p>
+                           <p className="lg:text-xl  text-green-950 col-span-4">: 1234 Elm Street, Suite 567, Anytown, <span className='ml-3'> USA </span></p>
                         </div>
-                        <div className="flex gap-1">
-                           <p className="text-yellow-700 text-xl">Email:</p>
-                           <p className="text-xl text-green-950">info@oakseellc.com</p>
+                        <div className="grid grid-cols-6  2xl:space-x-0  space-x-5 ">
+                           <p className="text-yellow-700 lg:text-xl text-lg col-span-1">Email</p>
+                           <p className="lg:text-xl text-green-950 col-span-4">: info@oakseellc.com</p>
                         </div>
-                        <div className="flex gap-1">
-                           <p className="text-yellow-700 text-xl">Phone:</p>
-                           <p className="text-xl text-green-950">+1 (555) 123-4567</p>
+                        <div className="grid grid-cols-6  2xl:space-x-0  space-x-5 ">
+                           <p className="text-yellow-700 lg:text-xl text-lg col-span-1">Phone</p>
+                           <p className="lg:text-xl text-green-950 col-span-4">: +1 (555) 123-4567</p>
                         </div>
                         <div className="flex gap-1 mt-5">
                            <Link to="https://in.linkedin.com/" >     <img className="w-8 h-8" src=' /Images/LinkedIn 2.png' alt='linkedin' /></Link>
@@ -48,7 +48,7 @@ function ContactUs() {
                                  <input className="focus:outline-none w-full border-b-2" placeholder='Subject' /><br />
                               </div>
                               <div className="">
-                                 <input className=" mt-20  focus:outline-none  w-full  " placeholder='Message' /><br />
+                                 <textarea className="  w-full   border-b-2  focus:outline-none" rows={4} placeholder='Message' /><br />
                               </div>
                               <button className="bg-green-950 text-white w-fit h-fit py-2 px-6 rounded-md mt-5 hover:bg-green-900"> Submit</button>
                            </form>
@@ -60,9 +60,9 @@ function ContactUs() {
                   </div>
                </div>
             </div>
-           
 
-            <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[9.2rem] my-4 " >
+
+            {/* <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[9.2rem] my-4 " >
                <div className=" grid grid-cols-1 text-center ">
                   <div className="">
                      <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
@@ -72,7 +72,7 @@ function ContactUs() {
                      </span>
                   </div>
                </div>
-            </section>
+            </section> */}
          </HelmetProvider>
          <Line />
       </>
