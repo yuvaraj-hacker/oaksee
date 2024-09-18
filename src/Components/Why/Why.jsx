@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import '../Why/Why.css'
+
 import 'aos/dist/aos.css';
 import Line from "../Line/Line";
 import { HelmetProvider } from "react-helmet-async";
 import Transition from "../Transition/Transition";
+import { Link } from "react-router-dom";
 function Why() {
   return (
     <>
@@ -14,13 +15,13 @@ function Why() {
           <title>Why Choose Us</title>
         </Helmet>
       </HelmetProvider>
-      <section className="max-w-[78rem] mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
+      <section className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]    mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
         <div className="grid grid-cols-1   ">
           <div className="">
             <p className="text-5xl mb-5 text-green-950 z-50">Why Choose Us</p>
             <div className="space-y-6">
               <div className=" p-5  z-40  border  lg:grid lg:grid-cols-4      rounded-md bg-green-950  text-white  hover:shadow-lg hover:shadow-yellow-100 ">
-                <div className="  z-50  flex justify-center items-center  lg:pb-0 pb-4 border-0   text-xl text-yellow-500">
+                <div className="   flex justify-center items-center  lg:pb-0 pb-4 border-0   text-xl text-yellow-500">
                   Expertise & Experience
                 </div>
                 <div className="text-justify  col-span-3 z-40">
@@ -33,7 +34,7 @@ function Why() {
                 </div>
               </div>
               <div className=" p-5  z-40  border  lg:grid lg:grid-cols-4      rounded-md bg-green-950  text-white  hover:shadow-lg hover:shadow-yellow-100 ">
-                <div className="  z-50  flex justify-center items-center  lg:pb-0 pb-4   border-0   text-xl text-yellow-500">
+                <div className="   flex justify-center items-center  lg:pb-0 pb-4   border-0   text-xl text-yellow-500">
                   Custom Centric Approach
                 </div>
                 <div className="text-justify  col-span-3 z-40">
@@ -46,7 +47,7 @@ function Why() {
                   </div>
                 </div>
               </div>
-              <div className=" p-5  z-40  border  lg:grid lg:grid-cols-4      rounded-md bg-green-950  text-white  hover:shadow-lg hover:shadow-yellow-100 ">
+              <div className="p-5  z-40  border  lg:grid lg:grid-cols-4      rounded-md bg-green-950  text-white  hover:shadow-lg hover:shadow-yellow-100 ">
                 <div className="  z-50  flex justify-center items-center lg:pb-0 pb-4   border-0   text-xl text-yellow-500">
                   Proven Track Record
                 </div>
@@ -78,11 +79,15 @@ function Why() {
           </div>
         </div>
       </section>
-      <section className="  max-w-[100rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[20rem] xl:mt-[7rem] lg:mt-[3rem]  lg:my-0 my-4 " >
-        <div className="lg:grid lg:grid-cols-2  grid grid-cols-1 text-center ">
-          <div className="gap-2">
+      
+      <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[20.2rem] xl:mt-[7rem] lg:mt-[3rem]  lg:my-0 my-4 " >
+        <div className=" grid grid-cols-1 text-center ">
+          <div className="=">
             <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
-            <span className="text-yellow-700">OAKSEE</span>
+            <Link to='/'> <span className="text-yellow-700">OAKSEE. </span></Link>
+            <span>
+              Website Designed By <a href="http://arrowthought.com/" target="_blank"><span className="underline">Arrow Thought.</span></a>
+            </span>
           </div>
         </div>
       </section>

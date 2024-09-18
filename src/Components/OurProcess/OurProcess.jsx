@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
-import '../OurProcess/Process.css'
+
 import Line from '../Line/Line';
 import { HelmetProvider } from 'react-helmet-async';
 import Transition from '../Transition/Transition';
+import { Link } from 'react-router-dom';
 function OurProcess() {
   return (
     <>
@@ -12,7 +13,7 @@ function OurProcess() {
           <meta charSet="utf-8" />
           <title>Our Process</title>
         </Helmet>
-        <section className="max-w-[78rem] mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
+        <section className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]  mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
           <div className="grid grid-cols-1   ">
             <div className="">
               <p className="text-5xl  text-green-950 z-50  ml-5">Our Process</p>
@@ -54,11 +55,14 @@ function OurProcess() {
             </div>
           </div>
         </section>
-        <section className="  max-w-[100rem] mx-auto px-3 lg:text-lg text-sm 2xl:mt-[7.5rem] my-4" >
-          <div className="lg:grid lg:grid-cols-2  grid grid-cols-1 text-center ">
-            <div className="gap-2">
+        <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[7.7rem] my-4 " >
+          <div className=" grid grid-cols-1 text-center ">
+            <div className="">
               <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
-              <span className="text-yellow-700">OAKSEE</span>
+              <Link to='/'> <span className="text-yellow-700">OAKSEE. </span></Link>
+              <span>
+                Website Designed By <a href="http://arrowthought.com/" target="_blank"><span className="underline">Arrow Thought.</span></a>
+              </span>
             </div>
           </div>
         </section>

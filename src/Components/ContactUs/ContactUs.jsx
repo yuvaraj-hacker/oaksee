@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
-import '../ContactUs/Contact.css'
+
 import 'aos/dist/aos.css';
 import Line from '../Line/Line'
 import { HelmetProvider } from 'react-helmet-async'
@@ -14,7 +14,7 @@ function ContactUs() {
                <meta charSet="utf-8" />
                <title>ContactUs</title>
             </Helmet>
-            <div className="max-w-[78rem] mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5    ">
+            <div className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]   mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5    ">
                <div className='grid grid-cols-1 '>
                   <p className=" text-5xl  text-green-950 mb-5 ">Contact </p>
                   <div className='lg:grid lg:grid-cols-6 '>
@@ -60,11 +60,16 @@ function ContactUs() {
                   </div>
                </div>
             </div>
-            <section className="  max-w-[100rem] mx-auto px-3 lg:text-lg text-sm 2xl:mt-[9rem] my-4 " >
-               <div className="lg:grid lg:grid-cols-2  grid grid-cols-1 text-center ">
-                  <div className="gap-2">
+           
+
+            <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[9.2rem] my-4 " >
+               <div className=" grid grid-cols-1 text-center ">
+                  <div className="">
                      <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
-                     <span className="text-yellow-700">OAKSEE</span>
+                     <Link to='/'> <span className="text-yellow-700">OAKSEE. </span></Link>
+                     <span>
+                        Website Designed By <a href="http://arrowthought.com/" target="_blank"><span className="underline">Arrow Thought.</span></a>
+                     </span>
                   </div>
                </div>
             </section>

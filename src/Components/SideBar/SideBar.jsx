@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../SideBar/SideBar.css';
+
 const SideBar = () => {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
@@ -29,8 +29,6 @@ const SideBar = () => {
               <img className=" w-10 " src="Images/Letter.png" alt="mail" />
             </Link>
           </div>
-          
-          
           </div>
       </div>
     </>

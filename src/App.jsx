@@ -1,10 +1,6 @@
-
 import './App.css'
 import Approuter from './router/Approuter'
-
 function App() {
-
-
   return (
     <>
         <div>
@@ -13,5 +9,4 @@ function App() {
     </>
   )
 }
-
 export default App

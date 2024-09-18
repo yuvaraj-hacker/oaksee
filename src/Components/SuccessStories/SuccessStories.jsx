@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import '../SuccessStories/SuccessStories.css'
+
 import 'aos/dist/aos.css';
 import Line from "../Line/Line";
 import { HelmetProvider } from "react-helmet-async";
 import Transition from "../Transition/Transition";
+import { Link } from "react-router-dom";
 function SuccessStories() {
   return (
     <>
@@ -13,12 +14,12 @@ function SuccessStories() {
           <meta charSet="utf-8" />
           <title>success Stories</title>
         </Helmet>
-        <div className="max-w-[78rem] mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5  " >
+        <section className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]  mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5  " >
           <div className="grid grid-cols-1  ">
             <p className="text-5xl text-green-950 ml-5">Success Stories</p>
             <div className="lg:grid lg:grid-cols-6 items-center ">
               <img className=" col-span-3 " src='/Images/successs.jpg' alt='success' />
-              <div className="  col-span-3 space-y-10 ">
+              <div className="  col-span-3 space-y-7 ">
                 <div className=" z-50  " >
                   <div className="  ">
                     <div className="flex  flex-wrap gap-1  ">
@@ -62,12 +63,17 @@ function SuccessStories() {
               </div>
             </div>
           </div>
-        </div>
-        <section className="  max-w-[100rem] mx-auto px-3 lg:text-lg text-sm 2xl:mt-[7.5rem] my-4" >
-          <div className="lg:grid lg:grid-cols-2  grid grid-cols-1 text-center ">
-            <div className="gap-2">
+        </section>
+       
+
+        <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[7.7rem] my-4 " >
+          <div className=" grid grid-cols-1 text-center ">
+            <div className="">
               <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
-              <span className="text-yellow-700">OAKSEE</span>
+              <Link to='/'> <span className="text-yellow-700">OAKSEE. </span></Link>
+              <span>
+                Website Designed By <a href="http://arrowthought.com/" target="_blank"><span className="underline">Arrow Thought.</span></a>
+              </span>
             </div>
           </div>
         </section>
