@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-
 import 'aos/dist/aos.css';
 import Line from "../Line/Line";
 import { HelmetProvider } from "react-helmet-async";
@@ -64,7 +63,6 @@ function SuccessStories() {
             </div>
           </div>
         </section>
-   
       </HelmetProvider>
       <Line />
     </>

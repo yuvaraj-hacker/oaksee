@@ -6,8 +6,6 @@ import { HelmetProvider } from "react-helmet-async";
 import Transition from "../Transition/Transition";
 import { Link } from "react-router-dom";
 import '../About/About.css'
-
-
 function About() {
   return (
     <>
@@ -31,7 +29,6 @@ function About() {
             </div>
           </div>
         </section>
-       
       </HelmetProvider>
       <Line />
     </>

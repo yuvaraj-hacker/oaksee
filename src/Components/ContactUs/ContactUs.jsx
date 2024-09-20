@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
-
 import 'aos/dist/aos.css';
 import Line from '../Line/Line'
 import { HelmetProvider } from 'react-helmet-async'
@@ -51,8 +50,6 @@ function ContactUs() {
                                  <textarea className="  w-full   border-b-2  focus:outline-none" rows={4} placeholder='Message' /><br />
                               </div>
                               <div className='flex justify-center'>
-
-
                                  <button className="bg-green-950 text-white w-fit h-fit py-2 px-6 rounded-md mt-5  hover:bg-green-900"> Submit</button>
                               </div>
                            </form>
@@ -64,19 +61,6 @@ function ContactUs() {
                   </div>
                </div>
             </div>
-
-
-            {/* <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm 2xl:mt-[9.2rem] my-4 " >
-               <div className=" grid grid-cols-1 text-center ">
-                  <div className="">
-                     <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
-                     <Link to='/'> <span className="text-yellow-700">OAKSEE. </span></Link>
-                     <span>
-                        Website Designed By <a href="http://arrowthought.com/" target="_blank"><span className="underline">Arrow Thought.</span></a>
-                     </span>
-                  </div>
-               </div>
-            </section> */}
          </HelmetProvider>
          <Line />
       </>

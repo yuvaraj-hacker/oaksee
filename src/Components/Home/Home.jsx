@@ -36,7 +36,6 @@ function Home() {
           </Link>
         </div>
       </section>
-     
       <Line />
     </>
   );

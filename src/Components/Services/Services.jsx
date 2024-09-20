@@ -137,17 +137,6 @@ function Services() {
                         </div>
                     </div>
                 </section>
-                {/* <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm mt-8  my-4 " >
-                    <div className=" grid grid-cols-1 text-center ">
-                        <div className="">
-                            <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
-                            <Link to='/'> <span className="text-yellow-700">OAKSEE. </span></Link>
-                            <span>
-                                Website Designed By <a href="http://arrowthought.com/" target="_blank"><span className="underline">Arrow Thought.</span></a>
-                            </span>
-                        </div>
-                    </div>
-                </section> */}
             </HelmetProvider>
             <Line />
         </>
