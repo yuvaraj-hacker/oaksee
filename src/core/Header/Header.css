@@ -38,7 +38,8 @@
     .raj{
       width:100vw;
       display: flex !important; 
-      justify-content: space-around !important;
+      justify-content: space-between !important;
+      padding: 0 30px;
       justify-items: center !important;
       align-items: center !important;
       

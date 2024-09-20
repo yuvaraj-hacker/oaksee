@@ -24,7 +24,7 @@ function Header() {
         <Link to="https://in.linkedin.com/"  > <img className="w-6 h-6 mt-2   " src='Images/white2.png' alt='whitelinkedin' /></Link>
         <Link to="https://twitter.com/?lang=en"  > <img className="w-6 mt-2 h-6  " src='Images/white3.png' alt='whitetwitter' /></Link>
         <Link to="https://www.facebook.com/"  > <img className="w-6  h-6 mt-2  " src='Images/white1.png' alt='whitefacebook' /></Link>
-        <Link to="/contact"  > <img className="w-6 h-6 fixed right-10  mt-2 " src='Images/Letter.png' alt='mail' /></Link>
+        <Link to="/contact"  > <img className="w-6 h-6 fixed right-8  mt-2 " src='Images/Letter.png' alt='mail' /></Link>
       </ul>
     </div>
     <header className=" flex  flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 z-50 lg:bg-white bg-gray-100  fixed lg:top-0 top-10">
