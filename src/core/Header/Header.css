@@ -28,20 +28,3 @@
     animation: slideUp 0.3s ease-in-out forwards;
   }
   
-
-
-
-
-
-@media only screen and (max-width : 1024px) {
-  
-    .raj{
-      width:100vw;
-      display: flex !important; 
-      justify-content: space-between !important;
-      padding: 0 30px;
-      justify-items: center !important;
-      align-items: center !important;
-      
-  }
-}
