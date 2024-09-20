@@ -17,7 +17,7 @@ function Services() {
                 <section className="2xl:max-w-[75rem] xl:max-w-[64rem] lg:max-w-[66rem]  heights 2xl:mt-36 xl:mt-32 mt-36  mx-auto 2xl:px-5 xl:px-14 lg:px-16 px-5">
                     <div className="grid grid-cols-1   ">
                         <div className="">
-                            <p className="text-5xl  mb-5 text-green-950 z-50">Services</p>
+                            <p className="lg:text-5xl text-4xl  mb-5 text-green-950 z-50">Services</p>
                             <div className='space-y-4'>
                                 <div className="     hover:border hover:shadow-md bg-white border hover:shadow-yellow-100  z-40 lg:p-2   hover:scale-105 transition-transform duration-300 ease-in-out   mx-auto    lg:grid  lg:grid-cols-4        ">
                                     <div className=" z-40     border-0  bg-green-950  2xl:text-xl text-lg items-center  lg:py-0 py-5 flex justify-center text-yellow-500">

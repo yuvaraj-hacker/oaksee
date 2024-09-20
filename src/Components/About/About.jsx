@@ -19,7 +19,7 @@ function About() {
         <section className="2xl:max-w-[75rem] xl:max-w-[64rem] lg:max-w-[66rem]   mx-auto heights 2xl:mt-36 xl:mt-32 mt-36  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
           <div className="grid grid-cols-1  ">
             <div className="">
-              <p className="text-5xl mb-5 text-green-950 z-50">About Us</p>
+              <p className="lg:text-5xl text-4xl mb-5 text-green-950 z-50">About Us</p>
               <p className=" text-green-950 text-justify">
                 Oaksee LLC is a premier IT consulting firm dedicated to delivering
                 innovative and effective technology solutions. Our team of seasoned
@@ -31,17 +31,7 @@ function About() {
             </div>
           </div>
         </section>
-        {/* <section className="  2xl:max-w-[80rem] xl:max-w-[60rem]  md:max-w-[55rem] mx-auto px-5 lg:text-lg text-sm mt-28  my-4 " >
-          <div className=" grid grid-cols-1 text-center ">
-            <div className="">
-              <span className="text-green-950">Copyright © 2024 All Right Reserved by</span>
-             <Link to='/'> <span className="text-yellow-700">OAKSEE. </span></Link>
-              <span>
-                 Website Designed By <a href="http://arrowthought.com/" target="_blank"><span className="underline">Arrow Thought.</span></a>
-              </span>
-            </div>
-          </div>
-        </section> */}
+       
       </HelmetProvider>
       <Line />
     </>
