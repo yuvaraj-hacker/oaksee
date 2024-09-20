@@ -20,7 +20,7 @@ function Header() {
   }
   return (<>
     <div className="w-screen bg-green-950 h-10  right fixed right-0 z-50 top-0 xl:hidden   lg:block       block    ">
-      <div className='flex justify-between  px-11 '>
+      <div className='flex justify-between  px-5 '>
         <div>
           <ul className="flex space-x-3 ">
             <Link to="https://in.linkedin.com/"  > <img className="w-6 h-6 mt-2   " src='Images/white2.png' alt='whitelinkedin' /></Link>
@@ -35,7 +35,7 @@ function Header() {
     </div >
     <header className=" flex  flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 z-50 lg:bg-white bg-gray-100  fixed lg:top-0 top-10">
       <nav className=" mx-auto md:max-w-[80rem]  lg:px-4 flex items-center lg:justify-between      2xl:gap-72 xl:gap-20 gap-14 ">
-        <div className='  lg:w-auto flex justify-between lg:px-0  items-center  w-[100vw] px-10'>
+        <div className='  lg:w-auto flex justify-between lg:px-0  items-center  w-[100vw] px-5'>
           <Link to="/"> <img className="w-48" src="Images/Logo3 (6).png" alt="Logo" /> </Link>
           <div className="xl:hidden lg:hidden  ">
             <button
@@ -86,7 +86,7 @@ function Header() {
         </div>
         <div
           id="hs-navbar-example"
-          className={`${isOpen ? 'block z-50 hamburger-menu-open' : 'hidden hamburger-menu-close'
+          className={`${isOpen ? 'block z-50 animate-fade-down animate-once animate-duration-500 animate-delay-50 ' : 'hidden   '
             } absolute top-full left-0 right-0 bg-gray-300   opacity-95 lg:border-none border  rounded-md  transition-all duration-300 lg:relative md:top-20 lg:top-0 md:left-0 md:right-0 lg:block  lg:bg-transparent xl:block md:z-auto`}
           aria-labelledby="hs-navbar-example-collapse   "
         >

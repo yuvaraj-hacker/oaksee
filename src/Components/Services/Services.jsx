@@ -14,7 +14,7 @@ function Services() {
                     <meta charSet="utf-8" />
                     <title>services</title>
                 </Helmet>
-                <section className="2xl:max-w-[73rem] xl:max-w-[65rem] lg:max-w-[64rem]  heights 2xl:mt-36 xl:mt-32 mt-36  mx-auto 2xl:px-5 xl:px-14 lg:px-16 px-5">
+                <section className="2xl:max-w-[73rem] xl:max-w-[65rem] lg:max-w-[64rem]  heights 2xl:mt-36 xl:mt-32 mt-36  mx-auto 2xl:px-5 xl:px-14 lg:px-16 px-5 mb-7">
                     <div className="grid grid-cols-1   ">
                         <div className="">
                             <p className="lg:text-5xl text-4xl lg:text-left text-center  mb-5 text-green-950 z-50">Services</p>

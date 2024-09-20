@@ -7,12 +7,11 @@ export default {
   ],
   theme: {
     extend: {
-      screens:{
-        // 'md': '900px',
-      }
+    
       
     },
   },
-  plugins: [    require('preline/plugin'),],
+  plugins: [    require('preline/plugin'),  require('tailwindcss-animated')],
+
 }
 

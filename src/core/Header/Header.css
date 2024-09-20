@@ -33,47 +33,4 @@
 
 
 
-@keyframes hamburgerSlideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes hamburgerSlideUp {
-  from {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  to {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-}
-
-
-
-
-@media only screen and (max-width : 1024px) {
-  .hamburger-menu-open {
-    animation: hamburgerSlideDown 0.3s ease-in-out forwards;
-  }
-}
-
-
-
-@media only screen and (max-width : 1024px) {
-  .hamburger-menu-close {
-    animation: hamburgerSlideUp 0.3s ease-in-out forwards;
-  }
-}
-
-
-
 
