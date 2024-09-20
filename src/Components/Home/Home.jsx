@@ -22,7 +22,7 @@ function Home() {
               <span className="text-green-950 ">Welcome To </span>
               <span className="text-yellow-600 "> OOAKSEE LLC</span>
             </div>
-            <div className="2xl:text-7xl xl:text-6xl lg:text-5xl  tracking-wider  text-3xl  font-semibold">
+            <div className="2xl:text-7xl xl:text-6xl lg:text-5xl  md:text-5xl tracking-wider  text-3xl  font-semibold">
               <span className=" text-green-950 ">Your Partner In</span>
               <span className=" text-yellow-600"> IT Excellence</span>
             </div>

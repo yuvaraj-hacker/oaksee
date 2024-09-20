@@ -40,7 +40,7 @@ function Header() {
           <div className="xl:hidden lg:hidden  ">
             <button
               type="button"
-              className="relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 "
+              className="relative size-7 flex  justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 "
               onClick={toggleMenu}
               aria-expanded={isOpen}
               aria-controls="hs-navbar-example"
@@ -86,8 +86,8 @@ function Header() {
         </div>
         <div
           id="hs-navbar-example"
-          className={`${isOpen ? 'block z-50' : 'hidden'
-            } absolute top-full left-0 right-0 bg-gray-300 opacity-95 lg:border-none border  rounded-md  transition-all duration-300 lg:relative md:top-20 lg:top-0 md:left-0 md:right-0 lg:block      lg:bg-transparent xl:block md:z-auto`}
+          className={`${isOpen ? 'block z-50 hamburger-menu-open' : 'hidden hamburger-menu-close'
+            } absolute top-full left-0 right-0 bg-gray-300   opacity-95 lg:border-none border  rounded-md  transition-all duration-300 lg:relative md:top-20 lg:top-0 md:left-0 md:right-0 lg:block  lg:bg-transparent xl:block md:z-auto`}
           aria-labelledby="hs-navbar-example-collapse   "
         >
           <div className="flex flex-col gap-5 mt-10 six lg:flex-row  lg:my-0 my-10 md:my-10 text-center  md:items-center md:justify-end   ">
