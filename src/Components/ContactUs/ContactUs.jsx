@@ -13,7 +13,7 @@ function ContactUs() {
                <meta charSet="utf-8" />
                <title>ContactUs</title>
             </Helmet>
-            <div className="2xl:max-w-[73rem] xl:max-w-[65rem] lg:max-w-[66rem] 2xl:mb-0 xl:mb-10  mx-auto   heights 2xl:mt-36 xl:mt-32 mt-36  2xl:px-5 xl:px-14 lg:px-16 px-5    ">
+            <div className="2xl:max-w-[73rem] xl:max-w-[65rem] lg:max-w-[65rem] 2xl:mb-0 xl:mb-10  mx-auto   heights 2xl:mt-36 xl:mt-32 mt-36  2xl:px-5 xl:px-14 lg:px-16 px-5    ">
                <div className='grid grid-cols-1 '>
                   <p className=" lg:text-5xl text-4xl   text-green-950 mb-5 lg:text-left text-center ">Contact </p>
                   <div className='lg:grid lg:grid-cols-6 3 '>
