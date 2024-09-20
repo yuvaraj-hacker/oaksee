@@ -15,7 +15,7 @@ function Why() {
           <title>Why Choose Us</title>
         </Helmet>
       </HelmetProvider>
-      <section className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]  heights mt-36     mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
+      <section className="2xl:max-w-[75rem] xl:max-w-[64rem] lg:max-w-[66rem]  heights mt-36     mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
         <div className="  ">
           <div className="">
             <p className="text-5xl mb-5 text-green-950 z-50">Why Choose Us</p>
