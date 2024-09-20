@@ -15,7 +15,7 @@ function Why() {
           <title>Why Choose Us</title>
         </Helmet>
       </HelmetProvider>
-      <section className="2xl:max-w-[75rem] xl:max-w-[64rem] lg:max-w-[66rem]  heights mt-36     mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
+      <section className="2xl:max-w-[75rem] xl:max-w-[64rem] lg:max-w-[66rem]  heights 2xl:mt-36 xl:mt-32 mt-36    mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5 ">
         <div className="  ">
           <div className="">
             <p className="text-5xl mb-5 text-green-950 z-50">Why Choose Us</p>
@@ -39,7 +39,7 @@ function Why() {
                 </div>
                 <div className="text-justify  col-span-3 z-40">
                   <div className="flex ">
-                    <p className="  text-sm  mt-1   z-40">
+                    <p className="  text-sm  2xl:mt-1 xl:mt-5   z-40">
                       {" "}
                       We prioritize your business objectives and tailor our solutions to
                       meet your unique needs.
