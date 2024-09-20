@@ -20,10 +20,10 @@ function Header() {
   }
   return (<>
     <div className="w-screen bg-green-950 h-10  right fixed right-0 z-50 top-0      xl:hidden   lg:block       block    ">
-      <ul className="flex px-5">
-        <Link to="https://in.linkedin.com/"  > <img className="w-6 h-6 mt-2   ml-3 " src='Images/white2.png' alt='whitelinkedin' /></Link>
-        <Link to="https://twitter.com/?lang=en"  > <img className="w-6 mt-2 h-6  ml-3" src='Images/white3.png' alt='whitetwitter' /></Link>
-        <Link to="https://www.facebook.com/"  > <img className="w-6  h-6 mt-2   ml-3" src='Images/white1.png' alt='whitefacebook' /></Link>
+      <ul className="flex space-x-2 px-5">
+        <Link to="https://in.linkedin.com/"  > <img className="w-6 h-6 mt-2   " src='Images/white2.png' alt='whitelinkedin' /></Link>
+        <Link to="https://twitter.com/?lang=en"  > <img className="w-6 mt-2 h-6  " src='Images/white3.png' alt='whitetwitter' /></Link>
+        <Link to="https://www.facebook.com/"  > <img className="w-6  h-6 mt-2  " src='Images/white1.png' alt='whitefacebook' /></Link>
         <Link to="/contact"  > <img className="w-6 h-6 fixed right-3  mt-2 " src='Images/Letter.png' alt='mail' /></Link>
       </ul>
     </div>

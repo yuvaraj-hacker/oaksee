@@ -125,7 +125,7 @@ function Services() {
                                         </div>
                                         <div className="flex gap-2">
                                             <img className="w-2 h-2 mt-2" src='/Images/green.png' alt='fullstop' />
-                                            <p className="text-green-950 z-40">    Temporary & Permanent Staffing: Offering flexible staffing solutions to suit your business requirements.<br /></p>
+                                            <p className="text-green-950 z-40 tracking-tight">Temporary & Permanent Staffing: Offering flexible staffing solutions to suit your business requirements .<br /></p>
                                         </div>
                                         <div className="flex gap-2">
                                             <img className="w-2 h-2 mt-2" src='/Images/green.png' alt='fullstop' />
