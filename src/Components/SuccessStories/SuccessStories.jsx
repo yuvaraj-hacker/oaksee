@@ -16,8 +16,8 @@ function SuccessStories() {
         </Helmet>
         <section className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]  heights mt-36   mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5  " >
           <div className="grid grid-cols-1  ">
-            <p className="text-5xl text-green-950 ml-5">Success Stories</p>
-            <div className="lg:grid lg:grid-cols-6 items-center ">
+            <p className="text-5xl text-green-950 lg:ml-5 text-center lg:text-left">Success Stories</p>
+            <div className="lg:grid lg:grid-cols-6 flex flex-col justify-center items-center ">
               <img className=" col-span-3 " src='/Images/successs.jpg' alt='success' />
               <div className="  col-span-3 space-y-7 ">
                 <div className=" z-50  " >

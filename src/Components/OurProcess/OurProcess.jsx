@@ -14,13 +14,13 @@ function OurProcess() {
           <title>Our Process</title>
         </Helmet>
         <section className="2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]  mx-auto  heights mt-36   2xl:px-5 xl:px-14 lg:px-16 px-5 ">
-          <div className="grid grid-cols-1   ">
+          <div className="grid grid-cols-1  ">
             <div className="">
-              <p className="text-5xl  text-green-950 z-50  ml-5">Our Process</p>
-              <div className='lg:grid lg:grid-cols-6  '>
-                <img className=" col-span-3  " src='/Images/process.jpg' alt='ourprocess' />
-                <div className='col-span-3 flex justify-center items-center' >
-                  <div className=''>
+              <p className="text-5xl  text-green-950 z-50 lg:text-left text-center  lg:ml-5">Our Process</p>
+              <div className='lg:grid lg:grid-cols-6 flex flex-col justify-center items-center'>
+                <img className=" lg:col-span-3   " src='/Images/process.jpg' alt='ourprocess' />
+                <div className=' lg:col-span-3  ' >
+                  <div className=' '>
                     <div className="flex ">
                       <p className="text-8xl p-2 font-semibold text-gray-200">1</p>
                       <div className="p-5 mx-4">

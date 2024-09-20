@@ -15,7 +15,7 @@ function Home() {
         <meta charSet="utf-8" />
         <title>Home</title>
       </Helmet>
-      <section className="flex justify-center  2xl:px-5 xl:px-10 lg:px-16 2xl:max-w-[75rem] xl:max-w-[65rem] lg:max-w-[66rem]   height items-center mx-auto ">
+      <section className="flex justify-center  2xl:px-5 xl:px-10 lg:px-16 2xl:max-w-[75rem] xl:max-w-[40rem] lg:max-w-[44rem]   height items-center mx-auto ">
         <div className=" grid grid-cols-1  lg:text-left  lg:ml-0 ml-8  ">
           <div className=" text-2xl ">
             <span className="text-green-950 ">Welcome To </span>

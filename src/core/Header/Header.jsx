@@ -20,16 +20,16 @@ function Header() {
   }
   return (<>
     <div className="w-screen bg-green-950 h-10  right fixed right-0 z-50 top-0      xl:hidden   lg:block       block    ">
-      <ul className="flex space-x-2 px-5">
+      <ul className="flex space-x-2 px-10">
         <Link to="https://in.linkedin.com/"  > <img className="w-6 h-6 mt-2   " src='Images/white2.png' alt='whitelinkedin' /></Link>
         <Link to="https://twitter.com/?lang=en"  > <img className="w-6 mt-2 h-6  " src='Images/white3.png' alt='whitetwitter' /></Link>
         <Link to="https://www.facebook.com/"  > <img className="w-6  h-6 mt-2  " src='Images/white1.png' alt='whitefacebook' /></Link>
-        <Link to="/contact"  > <img className="w-6 h-6 fixed right-3  mt-2 " src='Images/Letter.png' alt='mail' /></Link>
+        <Link to="/contact"  > <img className="w-6 h-6 fixed right-10  mt-2 " src='Images/Letter.png' alt='mail' /></Link>
       </ul>
     </div>
-    <header className=" flex    flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 z-50 lg:bg-white bg-gray-100  fixed lg:top-0 top-10">
-      <nav className=" mx-auto max-w-[80rem]     px-4 flex items-center justify-between  2xl:gap-80 xl:gap-16 gap-14 ">
-        <div className="flex items-center justify-center gap-28  ">
+    <header className=" flex  flex-wrap md:justify-start md:flex-nowrap w-full text-sm py-3 z-50 lg:bg-white bg-gray-100  fixed lg:top-0 top-10">
+      <nav className=" mx-auto max-w-[80rem]     lg:px-4 flex items-center lg:justify-between  2xl:gap-80 xl:gap-16 gap-14 ">
+        <div className='raj'>
           <Link to="/"> <img className="w-48" src="Images/Logo3 (6).png" alt="Logo" /> </Link>
           <div className="xl:hidden lg:hidden  ">
             <button

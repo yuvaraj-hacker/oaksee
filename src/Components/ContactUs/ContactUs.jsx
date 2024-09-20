@@ -50,7 +50,11 @@ function ContactUs() {
                               <div className="">
                                  <textarea className="  w-full   border-b-2  focus:outline-none" rows={4} placeholder='Message' /><br />
                               </div>
-                              <button className="bg-green-950 text-white w-fit h-fit py-2 px-6 rounded-md mt-5 hover:bg-green-900"> Submit</button>
+                              <div className='flex justify-center'>
+
+
+                                 <button className="bg-green-950 text-white w-fit h-fit py-2 px-6 rounded-md mt-5  hover:bg-green-900"> Submit</button>
+                              </div>
                            </form>
                         </div>
                      </div>
