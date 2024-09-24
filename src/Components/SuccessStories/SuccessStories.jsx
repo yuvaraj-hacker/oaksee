@@ -13,7 +13,7 @@ function SuccessStories() {
           <meta charSet="utf-8" />
           <title>success Stories</title>
         </Helmet>
-        <section className="2xl:max-w-[74rem] xl:max-w-[67rem] lg:max-w-[66rem]  heights 2xl:mt-36 xl:mt-32 mt-36   mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5  mb-8 " >
+        <section className="2xl:max-w-[75rem] xl:max-w-[67rem] lg:max-w-[66rem]  heights 2xl:mt-36 xl:mt-32 mt-36   mx-auto  2xl:px-5 xl:px-14 lg:px-16 px-5   " >
           <div className="grid grid-cols-1  ">
             <p className="lg:text-5xl text-4xl  text-green-950 lg:ml-5 text-center lg:text-left lg:mb-0 mb-3">Success Stories</p>
             <div className="lg:grid lg:grid-cols-6 flex flex-col justify-center items-center ">

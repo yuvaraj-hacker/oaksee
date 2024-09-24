@@ -23,18 +23,11 @@
 }
 
 .height{
-  min-height: calc(100vh - 135px);
+  min-height: calc(100vh - 120px);
 }
 
 
 
-
-@media only screen and (max-width: 1024px) {
-  .height{
-    min-height: calc(100vh - 155px);
-  }
-
-}
 
 
 

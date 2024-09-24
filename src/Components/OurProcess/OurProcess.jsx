@@ -12,7 +12,7 @@ function OurProcess() {
           <meta charSet="utf-8" />
           <title>Our Process</title>
         </Helmet>
-        <section className="2xl:max-w-[74rem] xl:max-w-[67rem] lg:max-w-[66rem]  mx-auto  heights 2xl:mt-36 xl:mt-32 mt-36   2xl:px-5 xl:px-14 lg:px-16 px-5 ">
+        <section className="2xl:max-w-[75rem] xl:max-w-[67rem] lg:max-w-[66rem]  mx-auto  heights 2xl:mt-36 xl:mt-32 mt-36   2xl:px-5 xl:px-14 lg:px-16 px-5 ">
           <div className="grid grid-cols-1  ">
             <div className="">
               <p className="lg:text-5xl text-4xl   text-green-950 z-50 lg:text-left text-center  lg:ml-5 lg:mb-0 mb-3">Our Process</p>
