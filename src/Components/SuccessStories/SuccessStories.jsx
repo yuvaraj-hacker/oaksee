@@ -26,7 +26,7 @@ function SuccessStories() {
                       <p className="text-green-950 lg:text-xl font-medium">Digital Transformation</p>
                     </div>
                     <p className="text-green-950 text-justify    ">
-                      Oaksee LLC transfomed cient A's operations by implementing a comprehensive digital strategy, resulting in a 30% increase in efficiency and a 20% reduction in costs. </p>
+                      Oaksee  transfomed cient A's operations by implementing a comprehensive digital strategy, resulting in a 30% increase in efficiency and a 20% reduction in costs. </p>
                   </div>
                 </div>
                 <div className=" z-50 ">

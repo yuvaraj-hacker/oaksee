@@ -16,24 +16,26 @@ function ContactUs() {
             <div className="2xl:max-w-[73rem] xl:max-w-[65rem] lg:max-w-[65rem] 2xl:mb-0 xl:mb-10  mx-auto   heights 2xl:mt-36 xl:mt-32 mt-36  2xl:px-5 xl:px-14 lg:px-16 px-5    ">
                <div className='grid grid-cols-1 '>
                   <p className=" lg:text-5xl text-4xl   text-green-950 mb-5 lg:text-left md:text-left text-center ">Contact </p>
-                  <div className='lg:grid lg:grid-cols-6 3 '>
+                  <div className='lg:grid lg:grid-cols-6  '>
                      <div className=" col-span-3  ">
                         <div className="grid grid-cols-6 2xl:space-x-0  space-x-5">
                            <p className="text-yellow-700 lg:text-xl text-lg col-span-1 ">Address</p>
-                           <p className="lg:text-xl  text-green-950 col-span-4">: 1234 Elm Street, Suite 567, Anytown, <span className='ml-3'> USA </span></p>
+                           <p className="2xl:text-xl xl:lg  text-green-950 col-span-5">: 4587 Scenic Vista Dr
+                           Folsom,  <br /> <span className='ml-3'> CA 95630</span></p>
                         </div>
                         <div className="grid grid-cols-6  2xl:space-x-0  space-x-5 ">
                            <p className="text-yellow-700 lg:text-xl text-lg col-span-1">Email</p>
-                           <p className="lg:text-xl text-green-950 col-span-4">: info@oakseellc.com</p>
+                           <p className="2xl:text-xl xl:lg  text-green-950 col-span-4">: info@oaksee.net</p>
                         </div>
                         <div className="grid grid-cols-6  2xl:space-x-0  space-x-5 ">
                            <p className="text-yellow-700 lg:text-xl text-lg col-span-1">Phone</p>
-                           <p className="lg:text-xl text-green-950 col-span-4">: +1 (555) 123-4567</p>
+                           <p className="2xl:text-xl xl:lg text-green-950 col-span-4">: 804-349-4836</p>
                         </div>
                         <div className="flex gap-1 mt-5">
-                           <Link to="https://in.linkedin.com/" >     <img className="w-8 h-8" src=' /Images/LinkedIn 2.png' alt='linkedin' /></Link>
-                           <Link to="https://twitter.com/?lang=en"> <img className="w-8 h-8" src='/Images/TwitterX.png ' alt='twitter' /></Link>
-                           <Link to="https://www.facebook.com/"><img className="w-8 h-8" src='/Images/Facebook F.png ' alt='facebook' />  </Link>
+                           <a href='https://in.linkedin.com/' target='_blank' >  <img className="w-8 h-8" src=' /Images/LinkedIn 2.png' alt='linkedin' /> </a>
+                           <a href='https://twitter.com/?lang=en' target='_blank' ><img className="w-8 h-8" src='/Images/TwitterX.png ' alt='twitter' /> </a>
+                           <a href='https://www.facebook.com/' target='_blank' ><img className="w-8 h-8" src='/Images/Facebook F.png ' alt='facebook' />  </a>
+
                         </div>
                         <div className="mt-10">
                            <form className='pr-5 space-y-8'>
