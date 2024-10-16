@@ -20,7 +20,7 @@ function Home() {
           <div className=" lg:px-0 px-10 ">
             <div className=" text-2xl ">
               <span className="text-green-950 ">Welcome To </span>
-              <span className="text-yellow-600 "> OOAKSEE </span>
+              <span className="text-yellow-600 "> OAKSEE </span>
             </div>
             <div className="2xl:text-7xl xl:text-6xl lg:text-5xl  md:text-5xl tracking-wider  text-4xl lg:my-0 my-1 font-semibold">
               <span className=" text-green-950 ">Your Partner In</span>

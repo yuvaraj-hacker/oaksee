@@ -19,7 +19,7 @@ function About() {
             <div className="">
               <p className="lg:text-5xl text-4xl mb-5 text-green-950 z-50 lg:text-left text-center">About Us</p>
               <p className=" text-green-950 text-justify">
-                Oaksee  is a premier IT consulting firm dedicated to delivering
+                OAKSEE  is a premier IT consulting firm dedicated to delivering
                 innovative and effective technology solutions. Our team of seasoned
                 professionals brings a wealth of experience in various IT
                 disciplines, ensuring your business harnesses the power of
